@@ -1,0 +1,682 @@
+Patient number,Cholesterol,Glucose,HDL Chol,Chol/HDL ratio,Age,Gender,Height,Weight,BMI,Systolic BP,Diastolic BP,waist,hip,Waist/hip ratio,Physical_Activity,Food_Quality,Family_History,Diabetes,Diabetes_num
+1,193,77,49,3.9,19,female,61,119,22.5,118,70,32,38,0.84,High,Average,No,No diabetes,0
+2,146,79,41,3.6,19,female,60,135,26.4,108,58,33,40,0.83,Moderate,Good,No,No diabetes,0
+3,217,75,54,4,20,female,67,187,29.3,110,72,40,45,0.89,Moderate,Average,No,No diabetes,0
+4,226,97,70,3.2,20,female,64,114,19.6,122,64,31,39,0.79,High,Poor,No,No diabetes,0
+5,164,91,67,2.4,20,female,70,141,20.2,122,86,32,39,0.82,High,Average,No,No diabetes,0
+6,170,69,64,2.7,20,female,64,161,27.6,108,70,37,40,0.93,Low,Good,No,No diabetes,0
+7,149,77,49,3,20,female,62,115,21,105,82,31,37,0.84,High,Good,No,No diabetes,0
+8,164,71,63,2.6,20,male,72,145,19.7,108,78,29,36,0.81,High,Good,No,No diabetes,0
+9,230,112,64,3.6,20,male,67,159,24.9,100,90,31,39,0.79,High,Poor,No,No diabetes,0
+10,179,105,60,3,20,female,58,170,35.5,140,100,34,46,0.74,Low,Poor,Yes,No diabetes,0
+11,174,105,117,1.5,20,male,70,187,26.8,132,86,37,41,0.9,Moderate,Poor,No,No diabetes,0
+12,193,106,63,3.1,20,female,68,274,41.7,165,110,49,58,0.84,Low,Poor,No,No diabetes,0
+13,132,99,34,3.9,21,female,65,169,28.1,112,62,39,43,0.91,Moderate,Poor,No,No diabetes,0
+14,203,84,75,2.7,21,female,63,142,25.2,125,85,28,39,0.72,High,Average,No,No diabetes,0
+15,135,88,47,2.9,21,male,69,155,22.9,110,68,31,39,0.79,High,Average,Yes,No diabetes,0
+16,187,84,64,2.9,21,female,63,158,28,138,88,39,43,0.91,Moderate,Average,Yes,No diabetes,0
+17,244,89,92,2.7,21,male,71,163,22.7,116,76,34,39,0.87,Moderate,Poor,Yes,No diabetes,0
+18,193,75,49,3.9,21,female,61,220,41.6,130,82,40,52,0.77,Low,Average,No,No diabetes,0
+19,165,76,46,3.6,22,female,63,114,20.2,112,78,28,35,0.8,High,Good,No,No diabetes,0
+20,172,70,36,4.8,22,female,64,148,25.4,90,48,35,38,0.92,Low,Good,No,No diabetes,0
+21,217,81,60,3.6,22,female,71,223,31.1,120,75,46,50,0.92,Low,Average,No,No diabetes,0
+22,223,75,85,2.6,22,female,62,137,25.1,120,70,28,35,0.8,High,Poor,No,No diabetes,0
+23,136,81,51,2.7,22,female,66,160,25.8,105,85,35,40,0.88,Moderate,Good,No,No diabetes,0
+24,175,91,42,4.2,23,female,65,235,39.1,110,80,44,50,0.88,Low,Average,No,No diabetes,0
+25,230,86,37,6.2,23,male,71,277,38.6,150,99,50,49,1.02,Low,Poor,Yes,No diabetes,0
+26,147,78,42,3.5,23,female,61,185,35,127,71,43,47,0.91,Low,Good,No,No diabetes,0
+27,229,91,43,5.3,23,male,72,180,24.4,110,78,34,41,0.83,High,Poor,Yes,No diabetes,0
+28,179,75,36,5,23,female,65,183,30.4,120,80,43,45,0.96,Low,Good,No,No diabetes,0
+29,185,76,58,3.2,23,male,76,164,20,124,78,32,40,0.8,High,Good,No,No diabetes,0
+30,164,86,40,4.1,23,female,69,245,36.2,126,75,44,47,0.94,Low,Average,No,No diabetes,0
+31,228,66,45,5.1,24,female,61,113,21.3,100,70,33,38,0.87,Moderate,Poor,No,No diabetes,0
+32,199,87,63,3.2,25,male,66,118,19,120,78,32,34,0.94,Low,Average,No,No diabetes,0
+33,134,101,36,3.7,25,female,63,245,43.4,142,78,47,58,0.81,Low,Poor,No,No diabetes,0
+34,169,104,58,2.9,25,female,60,154,30.1,140,95,40,42,0.95,Low,Poor,No,No diabetes,0
+35,227,98,66,3.4,25,male,71,162,22.6,123,82,35,39,0.9,Moderate,Poor,Yes,No diabetes,0
+36,149,138,50,3,26,female,62,174,31.8,148,92,38,46,0.83,Low,Poor,No,No diabetes,0
+37,155,58,69,2.2,26,male,73,174,23,110,76,30,35,0.86,Moderate,Good,No,No diabetes,0
+38,179,90,60,3,26,female,60,130,25.4,138,84,32,40,0.8,Moderate,Average,No,No diabetes,0
+39,283,83,74,3.8,26,male,72,227,30.8,158,104,41,44,0.93,Low,Poor,No,No diabetes,0
+40,228,79,37,6.2,26,male,72,259,35.1,122,90,48,49,0.98,Low,Poor,No,No diabetes,0
+41,220,60,66,3.3,26,male,70,150,21.5,136,88,33,39,0.85,High,Poor,Yes,Diabetes,1
+42,170,76,60,2.8,27,female,63,119,21.1,122,86,28,37,0.76,High,Good,No,No diabetes,0
+43,201,100,46,4.4,27,female,65,145,24.1,121,75,32,35,0.91,Moderate,Poor,No,No diabetes,0
+44,238,75,36,6.6,27,female,60,170,33.2,130,80,35,41,0.85,Low,Poor,Yes,No diabetes,0
+45,190,92,44,4.3,27,female,65,210,34.9,150,106,39,47,0.83,Low,Average,No,No diabetes,0
+46,203,94,62,3.3,27,female,67,209,32.7,140,80,34,43,0.79,Low,Average,No,No diabetes,0
+47,226,100,65,3.5,27,male,69,289,42.7,130,100,48,51,0.94,Low,Poor,Yes,No diabetes,0
+48,204,62,70,2.9,27,female,67,185,29,110,90,35,44,0.8,Moderate,Average,Yes,No diabetes,0
+49,166,77,68,2.4,27,male,72,141,19.1,110,58,33,38,0.87,Moderate,Good,No,No diabetes,0
+50,241,92,40,6,27,female,63,179,31.7,120,75,40,42,0.95,Low,Poor,No,No diabetes,0
+51,164,94,58,2.8,28,female,67,180,28.2,128,94,39,43,0.91,Moderate,Average,No,No diabetes,0
+52,214,111,59,3.6,28,male,68,204,31,130,90,40,41,0.98,Low,Poor,Yes,No diabetes,0
+53,151,74,47,3.2,28,male,69,130,19.2,135,75,29,35,0.83,High,Good,No,No diabetes,0
+54,184,99,36,5.1,28,male,67,154,24.1,124,94,35,38,0.92,Low,Poor,Yes,No diabetes,0
+55,168,69,45,3.7,28,female,63,200,35.4,111,65,42,46,0.91,Low,Good,No,No diabetes,0
+56,146,77,60,2.4,28,female,64,126,21.6,120,90,28,32,0.88,Moderate,Good,Yes,No diabetes,0
+57,189,96,47,4,28,female,64,200,34.3,136,52,38,45,0.84,Low,Average,No,No diabetes,0
+58,132,83,40,3.3,28,female,68,225,34.2,136,86,41,52,0.79,Low,Good,No,No diabetes,0
+59,179,77,50,3.6,29,male,68,170,25.8,122,68,38,39,0.97,Low,Good,No,No diabetes,0
+60,135,88,34,4,29,female,65,123,20.5,118,61,26,37,0.7,High,Average,No,No diabetes,0
+61,163,69,48,3.4,29,female,62,99,18.1,125,60,30,36,0.83,High,Good,No,No diabetes,0
+62,204,71,55,3.7,29,female,64,120,20.6,110,70,33,38,0.87,Moderate,Average,Yes,No diabetes,0
+63,165,97,24,6.9,29,female,64,218,37.4,112,68,46,48,0.96,Low,Average,No,No diabetes,0
+64,181,101,44,4.1,29,male,68,180,27.4,130,78,38,42,0.9,Moderate,Poor,Yes,No diabetes,0
+65,194,269,38,5.1,29,female,69,167,24.7,120,70,33,40,0.83,High,Poor,Yes,Diabetes,1
+66,158,74,64,2.5,30,female,62,142,26,108,68,32,34,0.94,Low,Good,No,No diabetes,0
+67,160,82,41,3.9,30,female,63,143,25.3,172,124,33,40,0.83,High,Good,No,No diabetes,0
+68,181,77,46,3.9,30,female,66,257,41.5,162,108,47,55,0.85,Low,Good,Yes,No diabetes,0
+69,144,81,28,5.1,30,male,72,165,22.4,118,78,31,38,0.82,High,Good,No,No diabetes,0
+70,182,74,44,4.1,30,female,62,125,22.9,132,80,31,39,0.79,High,Good,Yes,No diabetes,0
+71,145,84,54,2.7,30,female,65,165,27.5,102,56,33,42,0.79,Moderate,Average,No,No diabetes,0
+72,195,92,41,4.8,30,male,69,191,28.2,161,112,46,49,0.94,Low,Average,No,No diabetes,0
+73,207,75,44,4.7,30,male,72,180,24.4,118,62,35,41,0.85,High,Average,No,No diabetes,0
+74,192,124,31,5.6,30,male,72,250,33.9,142,79,43,51,0.84,Low,Poor,No,No diabetes,0
+75,183,69,51,3.6,31,female,66,190,30.7,125,70,41,47,0.87,Low,Good,No,No diabetes,0
+76,176,92,55,3.2,31,female,62,145,26.5,110,72,36,42,0.86,Moderate,Average,Yes,No diabetes,0
+77,163,83,57,2.9,31,female,65,120,20,136,86,29,40,0.73,High,Good,No,No diabetes,0
+78,188,77,45,4.2,31,female,67,227,35.5,122,70,47,53,0.89,Low,Average,No,No diabetes,0
+79,209,89,43,4.9,31,female,67,160,25.1,108,58,30,44,0.68,High,Average,No,No diabetes,0
+80,179,77,72,2.5,31,male,66,145,23.4,131,79,33,38,0.87,Moderate,Good,Yes,No diabetes,0
+81,293,85,94,3.1,31,female,67,200,31.3,110,90,41,42,0.98,Low,Poor,Yes,No diabetes,0
+82,305,91,44,6.9,31,male,71,211,29.4,100,60,40,45,0.89,Moderate,Poor,No,No diabetes,0
+83,191,155,58,3.3,31,female,62,237,43.3,140,87,53,56,0.95,Low,Poor,Yes,Diabetes,1
+84,155,81,70,2.2,32,female,65,151,25.1,120,68,33,40,0.83,High,Good,No,No diabetes,0
+85,179,85,52,3.4,32,female,62,179,32.7,140,96,37,47,0.79,Low,Average,No,No diabetes,0
+86,176,90,34,5.2,32,female,63,252,44.6,100,72,45,58,0.78,Low,Average,No,No diabetes,0
+87,244,101,36,6.8,32,male,70,212,30.4,132,90,39,44,0.89,Low,Poor,Yes,No diabetes,0
+88,213,83,47,4.5,33,female,65,157,26.1,130,90,37,41,0.9,Moderate,Average,Yes,No diabetes,0
+89,217,87,40,5.4,33,female,62,186,34,140,90,42,46,0.91,Low,Average,No,No diabetes,0
+90,151,85,48,3.1,33,male,69,308,45.5,110,90,52,58,0.9,Low,Average,No,No diabetes,0
+91,168,82,44,3.8,33,female,66,118,19,98,66,29,35,0.83,High,Good,No,No diabetes,0
+92,231,84,91,2.5,33,male,69,163,24.1,140,70,35,38,0.92,Low,Poor,No,No diabetes,0
+93,262,93,43,6.1,33,female,63,170,30.1,110,68,33,46,0.72,Moderate,Poor,Yes,No diabetes,0
+94,179,70,52,3.4,34,male,72,170,23.1,138,82,31,39,0.79,High,Good,No,No diabetes,0
+95,300,65,59,5.1,34,female,65,160,26.6,120,60,40,47,0.85,Moderate,Poor,No,No diabetes,0
+96,248,94,69,3.6,34,male,71,190,26.5,132,86,36,42,0.86,Moderate,Poor,Yes,No diabetes,0
+97,217,88,40,5.4,34,male,73,219,28.9,145,100,41,42,0.98,Low,Average,No,No diabetes,0
+98,224,71,42,5.3,34,female,60,165,32.2,135,80,34,46,0.74,Low,Poor,Yes,No diabetes,0
+99,171,85,61,2.8,34,female,63,164,29,120,80,34,43,0.79,Moderate,Average,No,No diabetes,0
+100,174,90,36,4.8,34,male,71,210,29.3,142,92,37,43,0.86,Moderate,Average,Yes,No diabetes,0
+101,194,86,67,2.9,35,male,66,159,25.7,115,64,31,35,0.89,Moderate,Average,No,No diabetes,0
+102,150,80,38,3.9,35,male,73,179,23.6,138,92,32,37,0.86,Moderate,Good,No,No diabetes,0
+103,337,85,62,5.4,35,male,72,189,25.6,124,84,36,44,0.82,Moderate,Poor,No,No diabetes,0
+104,239,97,55,4.3,35,male,74,170,21.8,122,62,32,38,0.84,High,Poor,No,No diabetes,0
+105,218,126,32,6.8,35,male,69,169,25,139,90,39,41,0.95,Low,Poor,Yes,No diabetes,0
+106,122,82,43,2.8,36,female,71,183,25.5,110,80,41,45,0.91,Moderate,Good,No,No diabetes,0
+107,225,83,42,5.4,36,male,67,192,30.1,149,89,40,42,0.95,Low,Poor,No,No diabetes,0
+108,160,71,44,3.6,36,female,64,185,31.8,110,80,39,45,0.87,Low,Good,No,No diabetes,0
+109,191,76,30,6.4,36,male,69,183,27,100,66,36,40,0.9,Moderate,Average,No,No diabetes,0
+110,199,153,77,2.6,36,female,66,255,41.2,118,66,47,52,0.9,Low,Poor,No,No diabetes,0
+111,197,92,46,4.3,36,female,64,136,23.3,128,80,32,37,0.86,Moderate,Average,No,No diabetes,0
+112,179,81,35,5.1,36,female,63,125,22.1,110,76,33,36,0.92,Low,Good,No,No diabetes,0
+113,186,74,76,2.4,36,male,69,150,22.1,138,82,31,38,0.82,High,Good,No,No diabetes,0
+114,178,78,59,3,36,male,70,161,23.1,130,79,34,40,0.85,High,Good,No,No diabetes,0
+115,224,85,30,7.5,36,male,69,205,30.3,150,99,37,41,0.9,Moderate,Poor,No,No diabetes,0
+116,194,81,36,5.4,36,male,64,126,21.6,110,76,30,34,0.88,Moderate,Average,No,No diabetes,0
+117,347,197,42,8.3,36,male,70,277,39.7,140,86,51,49,1.04,Low,Poor,No,No diabetes,0
+118,245,119,26,9.4,36,male,66,179,28.9,150,92,37,42,0.88,Moderate,Poor,Yes,Diabetes,1
+119,227,75,44,5.2,37,male,59,170,34.3,140,84,34,39,0.87,Low,Poor,No,No diabetes,0
+120,192,89,30,6.4,37,male,71,195,27.2,136,96,36,43,0.84,Moderate,Average,No,No diabetes,0
+121,215,64,84,2.6,37,female,59,148,29.9,140,100,32,42,0.76,Moderate,Average,No,No diabetes,0
+122,214,67,47,4.6,37,female,64,145,24.9,108,76,34,42,0.81,High,Average,No,No diabetes,0
+123,243,52,59,4.1,37,female,64,233,40,110,82,49,57,0.86,Low,Poor,No,No diabetes,0
+124,156,86,34,4.6,37,female,67,212,33.2,122,74,48,51,0.94,Low,Average,No,No diabetes,0
+125,179,85,50,3.6,37,male,66,136,21.9,190,94,33,39,0.85,High,Average,No,No diabetes,0
+126,209,91,36,5.8,37,male,70,262,37.6,130,94,42,48,0.88,Low,Average,No,No diabetes,0
+127,232,87,30,7.7,37,male,68,252,38.3,140,95,43,47,0.91,Low,Poor,Yes,No diabetes,0
+128,212,88,36,5.9,37,female,64,160,27.5,124,82,37,45,0.82,Moderate,Average,Yes,No diabetes,0
+129,199,130,48,4.1,37,female,61,203,38.4,136,84,42,51,0.82,Low,Poor,No,No diabetes,0
+130,145,85,29,5,38,female,60,125,24.4,132,82,31,35,0.89,Moderate,Average,No,No diabetes,0
+131,206,90,38,5.4,38,female,69,167,24.7,138,90,36,47,0.77,High,Average,No,No diabetes,0
+132,147,86,34,4.3,38,male,69,205,30.3,130,96,39,41,0.95,Low,Average,No,No diabetes,0
+133,302,81,57,5.3,38,female,67,222,34.8,128,82,41,51,0.8,Low,Poor,Yes,No diabetes,0
+134,138,95,40,3.5,38,female,60,138,26.9,140,90,31,39,0.79,Moderate,Average,No,No diabetes,0
+135,215,128,34,6.3,38,female,58,195,40.8,102,68,42,50,0.84,Low,Poor,No,No diabetes,0
+136,159,88,43,3.7,38,male,68,169,25.7,138,79,34,40,0.85,Moderate,Average,No,No diabetes,0
+137,268,90,48,5.6,38,female,63,181,32.1,142,100,38,46,0.83,Low,Poor,No,No diabetes,0
+138,251,118,38,6.6,38,female,64,248,42.6,110,80,49,58,0.84,Low,Poor,No,No diabetes,0
+139,216,155,30,7.2,38,male,68,145,22,110,60,34,37,0.92,Low,Poor,No,No diabetes,0
+140,203,299,43,4.7,38,female,69,288,42.5,136,83,48,55,0.87,Low,Poor,Yes,Diabetes,1
+141,181,83,44,4.1,39,female,66,255,41.2,140,98,46,54,0.85,Low,Good,No,No diabetes,0
+142,239,85,63,3.8,39,male,60,144,28.1,162,90,33,42,0.79,Moderate,Poor,Yes,No diabetes,0
+143,200,56,51,3.9,40,female,62,105,19.2,125,64,26,33,0.79,High,Average,No,No diabetes,0
+144,211,98,40,5.3,40,female,68,179,27.2,110,76,37,43,0.86,Moderate,Average,No,No diabetes,0
+145,152,103,32,4.8,40,female,52,187,48.6,148,82,38,49,0.78,Low,Poor,No,No diabetes,0
+146,173,83,37,4.7,40,female,62,130,23.8,122,76,37,38,0.97,Low,Good,No,No diabetes,0
+147,215,72,42,5.1,40,male,70,189,27.1,180,122,37,39,0.95,Low,Average,Yes,No diabetes,0
+148,219,105,63,3.5,40,female,62,153,28,106,82,36,44,0.82,Moderate,Poor,No,No diabetes,0
+149,180,76,46,3.9,40,female,64,146,25.1,128,82,37,43,0.86,Moderate,Good,No,No diabetes,0
+150,214,77,48,4.5,40,male,72,222,30.1,120,84,40,44,0.91,Moderate,Average,No,No diabetes,0
+151,171,92,54,3.2,40,male,71,214,29.8,138,94,41,39,1.05,Low,Average,Yes,No diabetes,0
+152,183,79,46,4,40,female,59,165,33.3,135,84,37,43,0.86,Low,Good,No,No diabetes,0
+153,184,92,36,5.1,40,female,63,285,50.5,142,98,50,60,0.83,Low,Average,Yes,No diabetes,0
+154,180,84,69,2.6,40,female,68,264,40.1,142,98,43,54,0.8,Low,Average,No,No diabetes,0
+155,191,74,33,5.8,40,male,72,270,36.6,136,70,45,49,0.92,Low,Average,Yes,No diabetes,0
+156,218,87,38,5.7,40,male,73,200,26.4,120,76,38,41,0.93,Low,Average,No,No diabetes,0
+157,169,85,51,3.3,40,female,65,180,30,106,82,40,44,0.91,Moderate,Average,No,No diabetes,0
+158,267,133,34,7.9,40,female,59,204,41.2,118,69,40,47,0.85,Low,Poor,Yes,Diabetes,1
+159,234,78,54,4.3,41,male,67,183,28.7,122,96,38,40,0.95,Low,Poor,No,No diabetes,0
+160,206,112,33,6.2,41,female,62,184,33.7,104,80,39,44,0.89,Low,Poor,Yes,No diabetes,0
+161,184,79,39,4.7,41,male,69,154,22.7,136,96,34,39,0.87,Moderate,Good,No,No diabetes,0
+162,178,64,52,3.4,41,female,65,188,31.3,130,76,35,46,0.76,Low,Good,No,No diabetes,0
+163,179,80,92,1.9,41,female,72,118,16,144,112,28,36,0.78,High,Good,No,No diabetes,0
+164,225,84,82,2.7,41,male,71,156,21.8,150,80,31,40,0.78,High,Poor,No,No diabetes,0
+165,189,84,46,4.1,41,female,63,153,27.1,130,80,32,40,0.8,Moderate,Average,No,No diabetes,0
+166,199,76,52,3.8,41,female,63,197,34.9,120,78,41,48,0.85,Low,Average,No,No diabetes,0
+167,241,86,63,3.8,41,female,59,139,28.1,112,72,29,39,0.74,Moderate,Poor,Yes,No diabetes,0
+168,170,106,42,4,41,female,61,110,20.8,103,64,29,30,0.97,Low,Poor,No,No diabetes,0
+169,269,59,66,4.1,41,male,67,191,29.9,130,73,38,41,0.93,Low,Poor,No,No diabetes,0
+170,269,73,34,7.9,41,female,62,160,29.3,126,90,39,41,0.95,Low,Poor,Yes,No diabetes,0
+171,270,73,40,6.8,42,male,66,185,29.9,146,94,39,41,0.95,Low,Poor,No,No diabetes,0
+172,172,101,46,3.7,42,female,65,165,27.5,118,68,33,45,0.73,Moderate,Poor,Yes,No diabetes,0
+173,193,77,45,4.3,42,female,75,186,23.2,125,90,37,46,0.8,High,Average,Yes,No diabetes,0
+174,199,81,36,5.5,42,female,67,235,36.8,178,100,47,52,0.9,Low,Average,Yes,No diabetes,0
+175,177,101,36,4.9,42,female,65,174,29,146,94,37,40,0.93,Low,Poor,No,No diabetes,0
+176,191,81,53,3.6,42,female,61,156,29.5,138,84,36,42,0.86,Moderate,Average,Yes,No diabetes,0
+177,208,122,51,4.1,42,female,62,141,25.8,118,78,33,40,0.83,Moderate,Poor,Yes,No diabetes,0
+178,188,84,46,4.1,43,female,66,152,24.5,122,80,37,41,0.9,Moderate,Average,No,No diabetes,0
+179,243,74,42,5.8,43,female,64,239,41,128,90,48,53,0.91,Low,Poor,No,No diabetes,0
+180,173,85,58,3,43,female,69,210,31,130,75,44,47,0.94,Low,Average,Yes,No diabetes,0
+181,162,76,40,4.1,43,male,67,216,33.8,100,70,41,44,0.93,Low,Good,No,No diabetes,0
+182,322,87,92,3.5,43,female,56,120,26.9,120,98,32,41,0.78,Moderate,Poor,No,No diabetes,0
+183,254,84,52,4.9,43,female,62,145,26.5,125,70,31,38,0.82,Moderate,Poor,No,No diabetes,0
+184,160,100,36,4.4,43,female,64,140,24,180,110,37,40,0.93,Low,Poor,Yes,No diabetes,0
+185,192,109,44,4.4,43,female,64,325,55.8,141,79,53,62,0.85,Low,Poor,No,No diabetes,0
+186,197,120,37,5.3,43,male,71,179,25,146,98,37,44,0.84,High,Poor,No,No diabetes,0
+187,237,87,41,5.8,43,female,64,181,31.1,104,90,36,46,0.78,Low,Poor,No,No diabetes,0
+188,190,84,44,4.3,43,female,62,163,29.8,135,88,40,45,0.89,Moderate,Average,No,No diabetes,0
+189,190,228,57,3.3,43,female,65,198,32.9,110,64,40,49,0.82,Low,Poor,No,Diabetes,1
+190,202,84,33,6.1,44,male,68,157,23.9,125,80,33,37,0.89,Moderate,Average,Yes,No diabetes,0
+191,244,101,39,6.3,44,male,71,168,23.4,140,89,36,39,0.92,Low,Poor,Yes,No diabetes,0
+192,168,101,59,2.8,44,female,64,160,27.5,130,88,40,43,0.93,Low,Poor,Yes,No diabetes,0
+193,260,67,46,5.7,44,female,62,159,29.1,140,94,36,43,0.84,Moderate,Poor,Yes,No diabetes,0
+194,214,87,35,6.1,44,female,64,190,32.6,140,75,38,44,0.86,Low,Average,No,No diabetes,0
+195,207,187,46,4.5,44,female,67,201,31.5,150,74,46,49,0.94,Low,Poor,Yes,Diabetes,1
+196,203,71,78,2.6,45,male,66,115,18.6,135,88,30,34,0.88,Moderate,Average,No,No diabetes,0
+197,189,80,40,4.7,45,male,69,190,28.1,140,75,39,44,0.89,Moderate,Average,Yes,No diabetes,0
+198,216,109,86,2.5,45,female,67,147,23,140,102,32,38,0.84,High,Poor,Yes,No diabetes,0
+199,233,92,39,6,45,female,64,167,28.7,124,86,39,44,0.89,Moderate,Poor,Yes,No diabetes,0
+200,177,87,49,3.6,45,male,69,166,24.5,160,80,34,40,0.85,High,Average,No,No diabetes,0
+201,191,83,88,2.2,45,female,67,151,23.6,130,90,33,38,0.87,Moderate,Average,No,No diabetes,0
+202,142,155,25,5.7,45,male,69,204,30.1,165,115,40,43,0.93,Low,Poor,No,No diabetes,0
+203,219,130,44,5,45,male,67,218,34.1,172,110,41,45,0.91,Low,Poor,Yes,Diabetes,1
+204,190,107,32,5.9,46,male,72,205,27.8,145,88,46,49,0.94,Low,Poor,Yes,No diabetes,0
+205,203,82,56,3.6,46,female,62,121,22.1,118,59,29,38,0.76,High,Average,Yes,No diabetes,0
+206,207,102,43,4.8,46,female,63,179,31.7,212,114,38,46,0.83,Low,Poor,Yes,No diabetes,0
+207,242,108,53,4.6,46,female,62,183,33.5,130,86,37,45,0.82,Low,Poor,No,No diabetes,0
+208,183,81,60,3.1,47,female,66,186,30,140,97,39,44,0.89,Moderate,Good,No,No diabetes,0
+209,234,65,76,3.1,47,male,67,230,36,137,100,45,46,0.98,Low,Poor,No,No diabetes,0
+210,118,95,39,3,47,female,64,123,21.1,140,76,30,36,0.83,High,Average,No,No diabetes,0
+211,266,82,54,4.9,47,male,68,142,21.6,118,78,35,39,0.9,Moderate,Poor,No,No diabetes,0
+212,223,90,48,4.6,47,female,65,232,38.6,120,86,46,54,0.85,Low,Poor,Yes,No diabetes,0
+213,245,120,39,6.3,47,female,63,156,27.6,142,102,35,39,0.9,Moderate,Poor,Yes,Diabetes,1
+214,173,225,31,5.6,47,male,73,260,34.3,150,98,42,47,0.89,Low,Poor,Yes,Diabetes,1
+215,172,117,56,3.1,48,female,63,170,30.1,130,82,35,42,0.83,Moderate,Poor,Yes,No diabetes,0
+216,190,74,50,3.8,48,male,68,100,15.2,120,85,27,33,0.82,High,Average,No,No diabetes,0
+217,134,105,42,3.2,48,male,70,173,24.8,178,120,36,40,0.9,Moderate,Poor,Yes,No diabetes,0
+218,268,85,51,5.3,48,male,70,120,17.2,150,105,32,35,0.91,Moderate,Poor,Yes,No diabetes,0
+219,209,87,34,6.1,48,female,63,121,21.4,111,62,32,38,0.84,High,Average,No,No diabetes,0
+220,201,81,87,2.3,48,female,68,146,22.2,145,95,32,41,0.78,High,Average,No,No diabetes,0
+221,204,89,56,3.6,48,male,68,196,29.8,170,96,38,42,0.9,Moderate,Average,No,No diabetes,0
+222,307,87,58,5.3,49,male,67,181,28.3,120,80,41,42,0.98,Low,Poor,No,No diabetes,0
+223,189,75,72,2.6,49,female,62,205,37.5,120,80,40,49,0.82,Low,Average,No,No diabetes,0
+224,160,196,33,4.8,49,male,71,266,37.1,150,98,49,45,1.09,Low,Poor,Yes,Diabetes,1
+225,237,233,58,4.1,49,female,62,189,34.6,130,90,43,47,0.91,Low,Poor,Yes,Diabetes,1
+226,158,91,48,3.3,50,male,71,180,25.1,136,90,36,40,0.9,Moderate,Average,No,No diabetes,0
+227,255,78,38,6.7,50,female,65,183,30.4,130,100,37,43,0.86,Moderate,Poor,No,No diabetes,0
+228,196,115,62,3.2,50,male,67,140,21.9,176,110,35,37,0.95,Moderate,Poor,Yes,No diabetes,0
+229,185,67,59,3.1,50,female,64,228,39.1,142,90,42,54,0.78,Moderate,Good,No,No diabetes,0
+230,293,115,54,5.4,50,male,71,170,23.7,131,75,34,39,0.87,Moderate,Poor,No,No diabetes,0
+231,188,88,51,3.7,50,female,61,147,27.8,160,66,34,41,0.83,Moderate,Average,No,No diabetes,0
+232,174,173,34,5.1,50,male,70,263,37.7,159,99,51,64,0.8,Moderate,Poor,Yes,No diabetes,0
+233,158,91,31,5.1,50,male,70,215,30.8,138,89,40,45,0.89,Moderate,Average,No,No diabetes,0
+234,181,255,26,7,50,male,71,320,44.6,140,86,56,49,1.14,Moderate,Poor,Yes,Diabetes,1
+235,140,385,31,4.5,50,male,69,172,25.4,138,66,37,41,0.9,Moderate,Poor,Yes,Diabetes,1
+236,192,85,69,2.8,51,male,65,146,24.3,130,110,33,36,0.92,Moderate,Average,No,No diabetes,0
+237,284,89,54,5.3,51,female,63,154,27.3,140,100,32,43,0.74,Moderate,Poor,Yes,No diabetes,0
+238,222,82,87,2.6,51,female,66,110,17.8,150,110,28,37,0.76,High,Poor,No,No diabetes,0
+239,249,81,28,8.9,51,female,65,200,33.3,122,90,43,46,0.93,Moderate,Poor,Yes,No diabetes,0
+240,212,79,49,4.3,51,female,65,145,24.1,230,120,38,42,0.9,Moderate,Average,No,No diabetes,0
+241,215,110,36,6,51,female,67,282,44.2,142,78,52,59,0.88,Moderate,Poor,Yes,Diabetes,1
+242,218,182,54,4,51,female,66,215,34.7,139,69,42,53,0.79,Moderate,Poor,Yes,Diabetes,1
+243,443,185,23,19.3,51,female,70,235,33.7,158,98,43,48,0.9,Moderate,Poor,Yes,Diabetes,1
+244,218,68,46,4.7,52,female,62,170,31.1,142,79,40,43,0.93,Moderate,Average,Yes,No diabetes,0
+245,171,97,69,2.5,52,male,71,159,22.2,125,72,33,39,0.85,High,Average,No,No diabetes,0
+246,255,83,90,2.8,52,male,70,120,17.2,170,110,30,33,0.91,Moderate,Poor,Yes,No diabetes,0
+247,182,85,43,4.2,52,male,68,139,21.1,130,90,29,35,0.83,High,Average,No,No diabetes,0
+248,206,83,68,3,52,male,69,153,22.6,140,98,36,40,0.9,Moderate,Average,Yes,No diabetes,0
+249,261,101,83,3.1,52,female,64,198,34,152,92,42,49,0.86,Moderate,Poor,Yes,No diabetes,0
+250,204,57,74,2.8,52,male,75,142,17.7,140,90,31,35,0.89,Moderate,Average,No,No diabetes,0
+251,196,120,67,2.9,52,female,62,147,26.9,144,94,34,42,0.81,Moderate,Poor,Yes,Diabetes,1
+252,219,78,67,3.3,53,female,64,179,30.7,135,100,39,47,0.83,Moderate,Poor,No,No diabetes,0
+253,273,94,49,5.6,53,female,64,174,29.9,160,96,34,43,0.79,Moderate,Poor,No,No diabetes,0
+254,225,74,36,6.3,53,female,63,182,32.2,126,80,38,46,0.83,Moderate,Poor,No,No diabetes,0
+255,185,84,52,3.6,53,female,61,145,27.4,147,72,37,40,0.93,Moderate,Average,No,No diabetes,0
+256,242,297,34,7.1,53,male,69,216,31.9,142,96,43,45,0.96,Moderate,Poor,Yes,Diabetes,1
+257,296,369,46,6.4,53,male,69,173,25.5,138,94,35,39,0.9,Moderate,Poor,Yes,Diabetes,1
+258,228,76,53,4.3,54,male,66,170,27.4,121,62,36,41,0.88,Moderate,Poor,No,No diabetes,0
+259,194,87,65,3,54,male,69,129,19,170,96,30,37,0.81,High,Average,No,No diabetes,0
+260,216,79,46,4.7,54,female,65,138,23,132,80,33,39,0.85,High,Average,Yes,No diabetes,0
+261,240,96,57,4.2,54,female,65,175,29.1,152,100,37,43,0.86,Moderate,Poor,Yes,No diabetes,0
+262,148,193,14,10.6,54,female,67,165,25.8,140,65,42,42,1,Moderate,Poor,Yes,No diabetes,0
+263,271,103,90,3,55,female,63,114,20.2,180,105,30,37,0.81,High,Poor,Yes,No diabetes,0
+264,204,94,54,3.8,55,female,66,202,32.6,140,90,43,47,0.91,Moderate,Average,No,No diabetes,0
+265,174,93,77,2.3,55,male,70,140,20.1,118,86,32,33,0.97,Moderate,Average,No,No diabetes,0
+266,157,74,47,3.3,55,female,66,219,35.3,150,82,43,52,0.83,Moderate,Good,No,No diabetes,0
+267,263,89,40,6.6,55,female,63,202,35.8,108,72,45,50,0.9,Moderate,Poor,No,No diabetes,0
+268,160,122,41,3.9,55,female,67,223,34.9,136,83,43,48,0.9,Moderate,Poor,No,No diabetes,0
+269,179,236,63,2.8,55,male,75,186,23.2,122,74,38,38,1,Moderate,Poor,Yes,Diabetes,1
+270,208,95,32,6.5,56,male,68,183,27.8,131,75,36,39,0.92,Moderate,Average,No,No diabetes,0
+271,129,110,42,3.1,56,male,74,151,19.4,140,75,34,38,0.89,Moderate,Poor,No,No diabetes,0
+272,219,173,31,7.1,56,female,65,197,32.8,100,50,41,50,0.82,Moderate,Poor,No,Diabetes,1
+273,404,206,33,12.2,56,male,69,159,23.5,162,88,38,39,0.97,Moderate,Poor,Yes,Diabetes,1
+274,138,81,45,3.1,57,male,73,164,21.6,148,81,31,37,0.84,High,Good,No,No diabetes,0
+275,173,80,57,3,57,male,71,145,20.2,124,64,31,36,0.86,Moderate,Good,No,No diabetes,0
+276,209,176,55,3.8,57,female,61,150,28.3,115,68,36,39,0.92,Moderate,Poor,No,Diabetes,1
+277,228,92,37,6.2,58,female,61,256,48.4,190,92,49,57,0.86,Moderate,Poor,No,No diabetes,0
+278,227,85,26,8.7,58,male,70,211,30.3,144,82,38,43,0.88,Moderate,Poor,No,No diabetes,0
+279,201,106,53,3.8,58,male,66,215,34.7,186,102,46,44,1.05,Moderate,Poor,No,No diabetes,0
+280,251,94,36,7,58,female,63,154,27.3,174,75,38,41,0.93,Moderate,Poor,No,No diabetes,0
+281,211,48,34,6.2,58,male,67,177,27.7,162,78,38,43,0.88,Moderate,Average,Yes,No diabetes,0
+282,115,239,36,3.2,58,male,69,200,29.5,125,69,30,37,0.81,Moderate,Poor,No,Diabetes,1
+283,204,113,35,5.8,59,male,73,187,24.7,148,76,38,37,1.03,Moderate,Poor,No,No diabetes,0
+284,215,97,46,4.7,59,female,63,176,31.2,140,70,34,44,0.77,Moderate,Average,Yes,No diabetes,0
+285,221,126,48,4.6,59,female,62,177,32.4,130,78,39,45,0.87,Moderate,Poor,Yes,No diabetes,0
+286,220,95,58,3.8,59,female,66,138,22.3,138,80,32,38,0.84,High,Poor,Yes,No diabetes,0
+287,193,248,24,8,59,female,66,189,30.5,140,90,38,45,0.84,Moderate,Poor,No,Diabetes,1
+288,195,108,46,4.2,59,female,67,172,26.9,150,102,38,43,0.88,Moderate,Poor,Yes,Diabetes,1
+289,219,112,73,3,59,male,66,170,27.4,146,92,37,40,0.93,Moderate,Poor,Yes,Diabetes,1
+290,289,267,38,7.6,59,male,68,169,25.7,142,79,36,38,0.95,Moderate,Poor,Yes,Diabetes,1
+291,198,92,62,3.2,60,male,70,163,23.4,126,78,36,40,0.9,Moderate,Average,No,No diabetes,0
+292,192,56,42,4.6,60,female,62,134,24.5,130,70,31,40,0.78,High,Average,Yes,No diabetes,0
+293,242,82,54,4.5,60,female,65,156,26,130,90,39,45,0.87,Moderate,Poor,No,No diabetes,0
+294,235,102,42,5.6,60,male,69,186,27.5,148,98,40,42,0.95,Moderate,Poor,Yes,No diabetes,0
+295,277,119,62,4.5,60,female,61,128,24.2,140,86,33,39,0.85,High,Poor,Yes,No diabetes,0
+296,162,90,46,3.5,60,female,63,121,21.4,110,64,32,34,0.94,Moderate,Average,No,No diabetes,0
+297,318,270,108,2.9,60,female,65,167,27.8,132,72,38,44,0.86,Moderate,Poor,Yes,No diabetes,0
+298,279,270,40,7,60,female,68,224,34.1,174,90,48,50,0.96,Moderate,Poor,Yes,Diabetes,1
+299,128,223,24,5.3,60,male,67,196,30.7,110,68,42,43,0.98,Moderate,Poor,No,Diabetes,1
+300,203,90,51,4,60,female,59,123,24.8,130,72,36,41,0.88,Moderate,Average,No,Diabetes,1
+301,143,91,37,3.9,61,female,65,220,36.6,160,92,40,50,0.8,Moderate,Average,No,No diabetes,0
+302,300,103,44,6.8,61,female,67,169,26.5,138,78,40,44,0.91,Moderate,Poor,No,No diabetes,0
+303,206,94,44,4.7,61,female,63,199,35.2,180,96,41,47,0.87,Moderate,Average,Yes,No diabetes,0
+304,182,85,37,4.9,61,female,69,174,25.7,176,86,49,43,1.14,Moderate,Average,Yes,No diabetes,0
+305,198,86,66,3,61,male,74,152,19.5,138,76,33,38,0.87,Moderate,Average,No,No diabetes,0
+306,211,225,29,7.3,61,female,63,144,25.5,190,100,40,42,0.95,Moderate,Poor,Yes,Diabetes,1
+307,265,330,34,7.8,61,male,74,191,24.5,170,88,39,41,0.95,Moderate,Poor,Yes,Diabetes,1
+308,204,128,61,3.3,62,male,68,180,27.4,141,81,38,41,0.93,Moderate,Poor,Yes,No diabetes,0
+309,169,95,29,5.8,62,male,66,251,40.5,118,72,50,47,1.06,Moderate,Average,No,No diabetes,0
+310,236,102,36,6.6,62,male,76,160,19.5,150,80,35,39,0.9,Moderate,Poor,Yes,No diabetes,0
+311,235,109,59,4,62,female,63,290,51.4,175,80,55,62,0.89,Moderate,Poor,Yes,Diabetes,1
+312,196,206,41,4.8,62,female,65,196,32.6,178,90,46,51,0.9,Moderate,Poor,Yes,Diabetes,1
+313,180,92,34,5.3,63,male,69,169,25,145,72,35,39,0.9,Moderate,Average,Yes,No diabetes,0
+314,194,54,57,3.4,63,male,70,181,26,184,76,37,42,0.88,Moderate,Average,Yes,No diabetes,0
+315,194,80,34,5.7,63,male,73,175,23.1,131,88,34,39,0.87,Moderate,Average,No,No diabetes,0
+316,212,82,68,3.1,63,male,70,161,23.1,180,110,37,40,0.93,Moderate,Average,Yes,No diabetes,0
+317,293,87,120,2.4,63,female,64,179,30.7,142,80,47,45,1.04,Moderate,Poor,No,No diabetes,0
+318,194,95,36,5.4,63,female,58,210,43.9,140,100,44,53,0.83,Moderate,Average,No,No diabetes,0
+319,277,88,45,6.2,63,female,64,223,38.3,220,100,45,54,0.83,Moderate,Poor,No,No diabetes,0
+320,157,91,34,4.6,63,male,69,166,24.5,106,82,39,38,1.03,Moderate,Average,No,No diabetes,0
+321,283,145,39,7.3,63,female,61,200,37.8,190,110,44,48,0.92,Moderate,Poor,Yes,Diabetes,1
+322,215,119,44,3.9,63,female,63,158,28,160,68,34,42,0.81,Moderate,Poor,Yes,Diabetes,1
+323,342,251,48,7.1,63,female,65,201,33.4,178,88,45,46,0.98,Moderate,Poor,Yes,Diabetes,1
+324,202,81,55,3.7,64,female,62,167,30.5,190,118,44,47,0.94,Moderate,Average,Yes,No diabetes,0
+325,255,100,34,7.5,64,male,68,227,34.5,134,74,44,47,0.94,Moderate,Poor,Yes,No diabetes,0
+326,181,177,24,7.5,64,male,71,225,31.4,130,66,44,47,0.94,Moderate,Poor,Yes,Diabetes,1
+327,249,90,28,8.9,64,male,68,183,27.8,138,80,44,41,1.07,Moderate,Poor,Yes,Diabetes,1
+328,249,197,44,5.7,64,female,63,159,28.2,151,85,33,41,0.8,Moderate,Poor,Yes,Diabetes,1
+329,219,106,50,4.4,65,female,63,233,41.3,140,90,40,53,0.75,Moderate,Poor,Yes,No diabetes,0
+330,229,95,74,3.1,65,female,62,151,27.6,125,64,37,42,0.88,Moderate,Poor,No,No diabetes,0
+331,212,97,45,4.7,65,female,61,187,35.3,158,94,43,47,0.91,Moderate,Average,Yes,No diabetes,0
+332,170,67,33,5.2,65,male,69,182,26.9,140,65,42,39,1.08,Moderate,Good,No,No diabetes,0
+333,159,172,28,5.7,65,male,70,181,26,142,81,43,49,0.88,Moderate,Poor,Yes,Diabetes,1
+334,224,341,33,6.8,65,male,67,197,30.9,160,80,42,43,0.98,Moderate,Poor,Yes,Diabetes,1
+335,263,82,92,2.9,66,female,66,121,19.5,104,64,31,33,0.94,Moderate,Poor,No,No diabetes,0
+336,184,76,42,4.4,66,male,74,185,23.8,130,75,40,41,0.98,Moderate,Good,No,No diabetes,0
+337,281,92,41,6.9,66,female,62,185,33.8,158,88,48,44,1.09,Moderate,Poor,Yes,No diabetes,0
+338,221,120,83,2.7,66,female,64,130,22.3,110,64,31,38,0.82,High,Poor,Yes,No diabetes,0
+339,188,174,24,7.8,66,male,68,210,31.9,160,78,45,48,0.94,Moderate,Poor,No,No diabetes,0
+340,246,104,62,4,66,female,66,189,30.5,200,94,45,46,0.98,Moderate,Poor,Yes,Diabetes,1
+341,204,173,37,5.5,66,male,67,146,22.9,138,78,36,48,0.75,High,Poor,Yes,Diabetes,1
+342,78,93,12,6.5,67,male,67,119,18.6,110,50,33,38,0.87,Moderate,Average,No,No diabetes,0
+343,206,85,46,4.5,67,male,67,178,27.9,119,68,37,41,0.9,Moderate,Average,No,No diabetes,0
+344,174,125,44,4,67,male,68,198,30.1,119,72,36,43,0.84,Moderate,Poor,Yes,No diabetes,0
+345,254,121,39,6.5,67,male,68,167,25.4,161,118,36,39,0.92,Moderate,Poor,Yes,Diabetes,1
+346,198,118,46,4.3,68,female,63,124,22,130,70,32,38,0.84,High,Poor,Yes,No diabetes,0
+347,143,371,46,3.1,68,male,67,158,24.7,138,82,37,43,0.86,Moderate,Poor,No,No diabetes,0
+348,207,77,46,4.5,68,male,55,130,30.2,199,115,29,33,0.88,Moderate,Average,Yes,No diabetes,0
+349,236,111,82,2.9,68,female,61,119,22.5,142,96,29,37,0.78,High,Poor,Yes,No diabetes,0
+350,260,68,60,4.3,69,female,59,179,36.1,158,98,45,48,0.94,Moderate,Poor,No,No diabetes,0
+351,242,74,55,4.4,70,female,66,200,32.3,140,65,41,47,0.87,Moderate,Poor,No,No diabetes,0
+352,186,97,50,3.7,70,male,67,178,27.9,148,88,42,41,1.02,Moderate,Average,Yes,No diabetes,0
+353,182,206,43,4.2,70,male,69,214,31.6,158,90,45,48,0.94,Moderate,Poor,Yes,Diabetes,1
+354,289,111,50,5.8,70,female,60,220,43,126,80,51,54,0.94,Moderate,Poor,Yes,Diabetes,1
+355,231,70,110,2.1,71,female,63,155,27.5,150,78,33,41,0.8,Moderate,Poor,No,No diabetes,0
+356,199,85,59,3.4,71,male,69,171,25.2,136,86,38,40,0.95,Moderate,Average,No,No diabetes,0
+357,228,115,61,3.7,71,female,63,244,43.2,170,92,48,51,0.94,Moderate,Poor,Yes,No diabetes,0
+358,213,203,75,2.8,71,female,63,165,29.2,150,80,34,42,0.81,Moderate,Poor,Yes,Diabetes,1
+359,204,120,44,4.6,72,male,65,167,27.8,140,72,45,46,0.98,Moderate,Poor,Yes,No diabetes,0
+360,205,83,42,4.9,72,female,61,180,34,170,90,39,47,0.83,Moderate,Average,No,No diabetes,0
+361,213,76,40,5.3,72,female,59,137,27.7,130,60,40,40,1,Moderate,Average,Yes,No diabetes,0
+362,207,71,41,5,72,male,70,180,25.8,138,88,39,40,0.98,Moderate,Average,No,Diabetes,1
+363,235,106,37,6.4,73,male,65,183,30.4,134,78,43,46,0.93,Moderate,Poor,Yes,No diabetes,0
+364,237,118,45,5.3,73,female,64,174,29.9,162,75,38,44,0.86,Moderate,Poor,Yes,Diabetes,1
+365,306,92,56,5.5,74,male,69,184,27.2,140,72,39,41,0.95,Moderate,Poor,No,No diabetes,0
+366,223,88,42,5.3,74,female,62,165,30.2,250,100,41,46,0.89,Moderate,Poor,No,No diabetes,0
+367,296,262,60,4.9,74,female,63,183,32.4,159,99,42,48,0.88,Moderate,Poor,Yes,Diabetes,1
+368,205,79,32,6.4,75,male,69,204,30.1,136,90,44,42,1.05,Moderate,Average,Yes,No diabetes,0
+369,254,342,37,6.9,75,male,68,210,31.9,151,87,44,45,0.98,Moderate,Poor,Yes,Diabetes,1
+370,159,100,54,2.9,76,male,66,188,30.3,116,53,40,41,0.98,Moderate,Poor,No,No diabetes,0
+371,196,82,58,3.4,76,male,65,154,25.6,158,78,37,41,0.9,Moderate,Average,No,No diabetes,0
+372,173,131,69,2.5,76,female,61,102,19.3,160,60,31,33,0.94,Moderate,Poor,Yes,No diabetes,0
+373,219,112,73,3,76,male,64,105,18,125,82,29,33,0.88,Moderate,Poor,No,No diabetes,0
+374,209,113,65,3.2,76,female,60,143,27.9,156,78,35,40,0.88,Moderate,Poor,Yes,Diabetes,1
+375,215,80,100,2.2,78,male,65,109,18.1,170,88,33,34,0.97,Moderate,Average,Yes,No diabetes,0
+376,210,81,81,2.6,78,male,66,145,23.4,110,70,38,39,0.97,Moderate,Average,Yes,No diabetes,0
+377,224,98,44,5.1,78,female,63,160,28.3,150,81,36,45,0.8,Moderate,Poor,No,No diabetes,0
+378,195,171,29,6.7,78,male,66,172,27.8,130,82,40,40,1,Moderate,Poor,No,No diabetes,0
+379,235,91,37,6.4,79,female,65,134,22.3,142,70,34,38,0.89,Moderate,Poor,No,No diabetes,0
+380,292,235,55,5.3,79,male,70,165,23.7,170,90,39,41,0.95,Moderate,Poor,Yes,Diabetes,1
+381,157,92,47,3.3,80,male,71,212,29.6,156,88,47,48,0.98,Moderate,Average,No,No diabetes,0
+382,252,161,87,2.9,80,female,62,162,29.6,160,100,44,41,1.07,Moderate,Poor,Yes,Diabetes,1
+383,271,121,40,6.8,81,female,64,158,27.1,146,76,36,43,0.84,Moderate,Poor,No,No diabetes,0
+384,240,88,49,4.9,82,female,63,170,30.1,180,86,41,46,0.89,Moderate,Poor,No,No diabetes,0
+385,255,112,34,7.5,82,male,66,163,26.3,179,89,37,43,0.86,Moderate,Poor,No,No diabetes,0
+386,227,105,44,5.2,83,female,59,125,25.2,150,90,35,40,0.88,Moderate,Poor,No,No diabetes,0
+387,226,279,52,4.3,84,female,60,192,37.5,144,88,41,48,0.85,Moderate,Poor,Yes,Diabetes,1
+388,301,90,118,2.6,89,female,61,115,21.7,218,90,31,41,0.76,High,Poor,Yes,No diabetes,0
+389,232,184,114,2,91,female,61,127,24,170,82,35,38,0.92,Moderate,Poor,Yes,Diabetes,1
+390,165,94,69,2.4,92,female,62,217,39.7,160,82,51,51,1,Moderate,Average,No,No diabetes,0
+391,190.6,104.1,39.2,4.9,65.9,female,57,165.5,29.8,161.3,74.8,47.8,36.5,0.89,Moderate,Poor,Yes,No diabetes,0.3
+392,259.1,143.8,91.6,2.8,23.3,female,71.3,210.6,17.9,150.1,75,32.9,39,0.81,Moderate,Poor,Yes,No diabetes,0.7
+393,205,115.1,73,5.5,36.3,female,66.8,184.2,24.6,185.7,76.1,35.4,36.9,0.92,Moderate,Average,Yes,Diabetes,-0.8
+394,220.7,71.4,48.5,4.4,22.7,male,73.3,253.4,30.5,127.1,67.4,45,33.4,0.89,Moderate,Average,No,No diabetes,-0.3
+395,216,125.4,55.1,2.2,40.2,female,60.6,192.9,30.8,151.9,96.4,34.1,51.7,0.76,Moderate,Poor,Yes,No diabetes,-0.2
+396,151.4,69.5,37.8,7,56.1,female,65.6,211.4,23.1,125.8,65,39.6,48.8,0.76,Moderate,Average,No,No diabetes,0
+397,214.2,50,55.7,2.2,49.2,female,62.4,115.7,34.2,140.9,69.5,34.6,38.9,0.88,Low,Average,Yes,Diabetes,-0.1
+398,108.1,50,58.4,5,70.7,female,64.7,224.9,26.5,115.7,88.1,36.5,41.8,0.89,High,Average,No,No diabetes,0.2
+399,223.1,50,69.2,1.1,13,male,72.8,251.8,45.6,141.8,80.7,36.6,43.8,0.78,Moderate,Poor,Yes,No diabetes,0.2
+400,194.8,134.3,77.3,5.5,27.5,female,61.4,179.9,27.6,199.3,100.5,45.5,45.3,0.92,Low,Poor,Yes,No diabetes,0
+401,262.9,155.7,37.1,6.9,35,male,66,183.8,24,151.1,80.1,41.2,39.4,0.87,Moderate,Average,Yes,No diabetes,0.1
+402,175.6,194.5,44.2,4.7,44.8,female,62.6,188.7,33.6,134,63.3,29.4,46.4,0.85,High,Poor,No,No diabetes,0.6
+403,198.6,50,52.3,4.6,67.6,female,69.1,246.8,31,125.3,71.5,34.2,50.8,0.86,Moderate,Average,Yes,No diabetes,0.2
+404,210.3,67.2,39.1,6.7,71.2,female,65.6,199.7,30,127.7,92.8,40.7,47.6,0.84,Low,Poor,No,No diabetes,0.4
+405,206.2,50,55.3,7.4,19.6,male,64.4,225.2,33,127.7,66.2,33.6,43.9,0.95,Moderate,Average,No,No diabetes,0.3
+406,222.6,54.2,54.6,5.7,31.4,male,63.6,190.6,36.9,119.7,79.8,44.8,47,0.91,Low,Poor,No,No diabetes,0.2
+407,204.3,115,52.3,6.6,29.4,female,67.9,191.7,30.2,131.5,78.6,42.2,47.2,0.88,Moderate,Poor,Yes,No diabetes,1.1
+408,230.7,185.5,70.7,2.8,42.7,female,67.6,172,30,98.7,96.9,36.1,35.4,0.88,High,Average,Yes,No diabetes,0.4
+409,153.2,95.8,49.3,2.4,61.8,female,61.5,185,32.4,124.7,94.7,41.3,35.9,1,Moderate,Poor,Yes,Diabetes,0
+410,194.4,145.2,65.5,6.1,35.7,female,65.8,126.6,24.9,154.3,81.9,39.6,43,0.96,Moderate,Good,Yes,No diabetes,0.1
+411,218,90.6,52.6,2.3,32.6,female,63.2,209.2,28.6,158.6,88.8,33.6,44.4,0.97,Moderate,Average,Yes,Diabetes,0.3
+412,315.6,145.9,52.4,7.3,46.2,female,70.1,150.9,23.5,97.4,99.4,38,42.7,0.75,Moderate,Poor,Yes,No diabetes,0.2
+413,216,106.1,56.6,3.8,70.7,female,66.8,172.6,28,156.4,77.4,42.5,36.4,0.91,Moderate,Average,Yes,No diabetes,0
+414,160.4,50,70,5.3,47,male,69.4,187.2,29.9,158.9,78.7,37.8,50,0.83,High,Good,Yes,Diabetes,-0.4
+415,276.3,106.1,35.2,8.1,54.9,female,65,120.7,25.6,117.4,68.3,36.2,48.1,0.93,Moderate,Poor,Yes,No diabetes,-0.1
+416,201,176.2,53.7,3.9,42.6,female,65.9,259.6,19.6,137.8,83.2,37.7,46.5,0.97,Moderate,Poor,Yes,No diabetes,0.5
+417,201,50,61.6,4.3,74.4,female,69.8,214.5,34.1,128.1,82,30.7,46.6,0.86,Low,Poor,Yes,No diabetes,0.3
+418,313.7,126,46,4.4,44.7,female,72.5,230.4,32,122.8,48.5,38.2,42.9,0.93,Moderate,Average,Yes,No diabetes,0.8
+419,203.7,161.7,30.3,3.7,53.7,male,62.9,137.1,23.6,135,92.5,37.3,38.2,0.92,Moderate,Average,Yes,No diabetes,0.2
+420,149.3,106.1,42.4,3.7,41,female,64.2,157.8,31.7,142,75.7,40.6,43.9,0.72,Moderate,Poor,No,No diabetes,1
+421,259.2,152.4,80.9,1.6,46.1,female,64.7,170.7,17.3,129.2,82.6,36.8,47.4,0.9,High,Poor,No,No diabetes,0.7
+422,209.5,97.3,43.1,6.3,40.7,male,69.8,195.8,15.8,126.4,65.9,42,43.7,0.99,High,Poor,No,No diabetes,0.3
+423,222.4,50,41.9,2.8,52.1,female,69,272.8,32.5,131,65.3,37.2,51.7,0.87,Low,Average,No,No diabetes,0.4
+424,168.3,57.7,58.8,4.9,63.7,male,64.9,144.5,19.2,92.5,88.4,48.9,51.6,0.87,High,Poor,Yes,No diabetes,-0.2
+425,220,128.2,51.8,6.6,64.2,male,61.6,227.1,33.6,167.4,83.7,36.1,47.1,1.03,Moderate,Poor,No,No diabetes,-0.4
+426,236.8,161.4,84,3.5,23.2,female,59.2,208.7,35.7,121.8,105.9,38.8,44,0.84,Moderate,Poor,Yes,No diabetes,0.3
+427,124,86.3,15.1,5.4,41.4,male,64.3,163.6,24,135.1,69.3,34.1,43,0.96,Moderate,Average,No,No diabetes,0.1
+428,208.2,78.1,44.5,4.5,33.5,female,64.8,179.7,18.8,137.6,83.4,51.8,43.1,0.8,Low,Average,Yes,No diabetes,0.4
+429,213.4,71.4,52.7,9.8,63.9,male,63.6,175.3,19.2,152.2,90.4,34.2,47.4,0.82,High,Poor,No,No diabetes,-0.4
+430,253.6,89.4,66.9,0.7,48.8,female,64.1,175.3,31.1,109.7,65.9,29.7,42.9,0.94,Low,Poor,No,No diabetes,0.7
+431,226.2,50,49,5.4,35.3,female,69.6,233.4,31.2,103.8,103.3,41,43.1,0.88,High,Good,Yes,No diabetes,0.3
+432,230.3,216.5,43.1,5.2,2.5,male,63.9,118.8,30.1,105.4,82.7,46.8,47.6,0.93,High,Average,No,No diabetes,0.7
+433,268.7,68.4,49.9,4.2,23.8,female,73.1,154.9,19.8,96.1,74.8,39.5,41.1,0.89,High,Average,Yes,No diabetes,0.4
+434,237.3,60.6,54.6,6,75.5,female,61,159.8,35.6,125.1,62.9,30,37.2,0.92,High,Average,No,Diabetes,0.8
+435,184.4,53.6,61.5,4.5,10.5,female,66.8,139.7,28.9,133.4,78.1,39,47.2,0.79,Moderate,Poor,No,No diabetes,0
+436,196.2,94.8,27.1,4.3,39.1,female,68.9,200.4,31.6,91.1,79.1,34.8,51.4,1.02,High,Average,No,No diabetes,0.3
+437,112.4,137.1,46.1,2.3,26.6,female,70.9,168.4,30.6,162.2,62.5,37.8,41.8,0.77,Low,Good,No,No diabetes,-0.3
+438,242.2,187.6,53.1,3.9,55,female,60.6,158.4,29.4,149.8,82.4,43.4,39.1,0.81,Low,Poor,Yes,Diabetes,0
+439,178.4,98.8,42.4,3.4,66.7,female,63.9,145.1,33.7,173,89.1,42.2,39.3,0.89,Low,Average,No,Diabetes,0.4
+440,137.2,50,51.2,4.2,52.4,female,72.3,230.1,26.3,183.7,96.1,30.8,47,0.92,Low,Poor,No,No diabetes,-0.9
+441,196.1,205.8,45.8,8.2,41.3,male,62.7,186.2,24.4,171.6,109.4,40.4,34.5,0.76,Moderate,Poor,Yes,No diabetes,0.2
+442,244.9,81,79.3,4.7,49.6,female,62,137.3,28.7,117,88.1,40.2,29.9,0.74,Low,Poor,No,No diabetes,0
+443,95.5,58.1,-1,3.1,31.4,female,64.1,125.6,39.2,128.2,59.2,42,54.2,1.01,Moderate,Poor,No,No diabetes,0
+444,192.1,195.1,24.4,2.1,5.6,female,60.9,191.6,36.5,128.8,72.8,42.2,49,0.85,Low,Poor,Yes,No diabetes,-0.3
+445,181.7,107.4,47.1,5.5,44.5,male,71.9,89.8,31.2,142.3,105.9,32,39.1,0.81,Moderate,Poor,Yes,No diabetes,0.8
+446,152.4,117.4,70.9,3.8,48.7,male,74.1,141,19.8,118.4,54.5,36.9,41.3,0.8,Moderate,Poor,No,No diabetes,-0.1
+447,153.6,50,18.9,3,43.6,female,69.3,248.5,32,141,80.4,50.3,42.6,0.79,Moderate,Average,No,No diabetes,0.4
+448,161.4,215.4,72.6,0.9,32.7,female,63.3,165.5,32.7,157.1,82.9,31.3,31,1.01,Moderate,Poor,No,No diabetes,0
+449,228.2,56.1,78.1,4.5,70.8,female,60.7,129.8,19.9,121.3,82.9,38.3,42.9,0.69,Low,Average,No,No diabetes,0.1
+450,221.5,130.3,33,3.8,54.5,male,66.5,168.9,31.2,145.1,52.7,41.7,45,0.82,Moderate,Poor,No,No diabetes,0.1
+451,197.9,81.6,32,3.8,39.9,female,63.6,255.3,29,130.6,78.1,41,39.5,0.94,High,Poor,No,No diabetes,0.4
+452,193.6,115.6,42.4,3.9,27.1,female,67.5,233,27.7,122.9,67.9,40.1,41.1,0.81,Moderate,Good,No,No diabetes,0.2
+453,271.9,152.9,45.5,5,9.7,male,70.7,169.4,21.2,116.5,83.9,33,45.2,0.78,Moderate,Poor,Yes,No diabetes,0.1
+454,222,91.4,77.4,6.4,65.6,male,69.7,172.6,32.2,110.4,74.7,38,47.4,0.8,Low,Average,Yes,Diabetes,0
+455,193.4,72.2,48.1,6.1,76.2,female,63.5,190,27.5,129.4,95,30.6,39,0.89,Moderate,Good,No,No diabetes,0.4
+456,273.2,152.6,58.6,3.8,40.7,female,64.3,160.9,32.9,130.1,92.8,29,37.6,0.93,High,Average,Yes,No diabetes,0.2
+457,287.5,139.7,6.3,5.2,47.4,male,65.9,242.3,32,169.7,73.3,35.5,47.5,0.86,Moderate,Good,No,No diabetes,0.1
+458,216.8,59.4,42.2,5,55.3,female,71.8,235.5,30.8,127.2,85.7,33,42.6,0.94,Moderate,Poor,Yes,No diabetes,0.2
+459,284.9,181.3,49.8,3.8,38,male,69.3,198.9,44.2,127.1,51.5,24.1,39.3,0.76,Low,Poor,No,No diabetes,0.1
+460,252.3,115.1,76.8,2.6,43.9,female,66.4,146.8,35,119,74.4,40.5,45.7,0.87,Moderate,Average,No,No diabetes,0.5
+461,291.6,80.5,29.3,7.2,36.3,female,68.5,254.3,24.2,129.5,65.1,39.2,48,0.97,Low,Poor,No,No diabetes,-0.6
+462,200.5,74.4,37.6,4.6,49.1,male,60.2,142.9,31.7,152.1,88.4,39.8,46.1,0.82,Moderate,Average,Yes,No diabetes,0
+463,178.9,93.2,70.1,6.6,38.7,male,70.2,174.9,30.8,171.2,105.4,34.4,56.6,0.94,Moderate,Poor,No,No diabetes,-0.2
+464,214.4,152.7,66.7,6.9,56.2,female,65.5,136.7,25.8,103,90.4,36.7,51.6,0.9,Moderate,Poor,No,No diabetes,-0.1
+465,143.8,181.5,44,6.4,44.7,female,62.4,213.1,28.1,152.7,59.9,38.6,39.9,0.76,Moderate,Poor,Yes,No diabetes,0.6
+466,296.1,130.4,53.6,2.1,64.8,female,63.8,173.5,22.3,135.2,91.9,44.2,44.2,0.78,Moderate,Average,Yes,No diabetes,-0.2
+467,270.5,155.2,45.3,5.7,57.8,female,65.6,147.7,16.5,142.8,101,32.4,48.4,0.82,Low,Poor,Yes,No diabetes,-0.2
+468,192.3,75.2,63.1,4.1,27.6,male,63.3,190.7,17.7,130.2,73.7,40.6,45.5,0.87,Low,Poor,No,No diabetes,0.1
+469,226.5,159,20.8,6.2,51.1,female,57.8,235.6,25.7,117.4,76.5,38.5,42.4,0.9,High,Average,No,No diabetes,0
+470,246.8,115.3,44,5.8,48.9,male,63.5,184.8,22,158.6,102.7,40.6,56.8,1,High,Good,Yes,No diabetes,0.2
+471,195.4,144.5,50.8,3.6,53.7,female,62,200.1,36.8,127.2,92.4,30.4,42.6,0.92,Moderate,Good,No,No diabetes,0.4
+472,136.1,86.4,42.4,3.2,34,female,71.3,122.7,36.3,76.3,80,31.9,33.3,1,Moderate,Poor,No,No diabetes,0.1
+473,96.4,151.9,65.8,4.8,59.6,male,67.3,134.5,28.2,142.9,80.4,37.9,37.6,0.9,Moderate,Average,No,No diabetes,-0.2
+474,281.2,144.5,46.5,4.7,55.8,male,65,185.2,23.7,172.1,83.4,45,37.2,0.78,High,Poor,No,No diabetes,0
+475,200.9,195,71,3.9,34.9,male,66.7,159.2,29.2,146.7,94.1,27.6,43.2,0.89,High,Poor,No,No diabetes,0.1
+476,258.1,138.9,53.5,5.7,44.5,male,60,184.6,37,107.7,88.5,41,45.2,0.8,Moderate,Good,No,No diabetes,-0.1
+477,226.1,50,47.8,5.6,46.3,male,70,162,33,112.3,88,38.6,43.8,0.89,Moderate,Average,No,No diabetes,0.4
+478,136.4,69.3,49.1,3.8,63,female,70,142.8,26,162.9,68.9,32,51.4,0.81,Low,Poor,No,No diabetes,0
+479,208.4,100.5,28.8,2.5,38,female,66.2,188.2,31.5,122.4,80.6,46.7,37.1,0.93,Low,Average,No,No diabetes,0.3
+480,232,114,25.7,4.9,31,female,59.5,209.2,40.2,143.3,62.8,35.4,50.4,0.81,High,Average,Yes,No diabetes,0.3
+481,149.4,158,37.7,4.6,48.2,male,66.7,184.3,21.6,128.3,114.6,34.4,45.8,0.95,Moderate,Poor,Yes,No diabetes,0.6
+482,206.9,143.6,40.7,1.8,41.8,male,64.5,204.2,31.3,159,119.6,38.6,59.1,0.91,Low,Poor,Yes,Diabetes,0.4
+483,169.4,221.6,12.7,5.2,53.5,female,65.7,191.9,25.4,143,105.3,37.8,38.7,0.85,Moderate,Poor,Yes,No diabetes,-0.2
+484,174.1,50,67.8,4.2,28.3,female,70.5,244.5,18.8,152.7,83.9,51.1,44.8,0.91,Low,Poor,No,No diabetes,1.1
+485,219.9,50,65.8,3,17.6,female,68,141.7,32.8,121.9,82,30.8,49.3,1.01,Moderate,Poor,Yes,No diabetes,0.1
+486,268.4,94,68.2,2,51.5,male,65.3,195.2,20.4,160.3,92.1,37.6,45.3,0.83,High,Good,No,No diabetes,-0.4
+487,215.9,126.3,44.2,3.8,26.7,female,57.3,225.2,20.1,104.8,106.4,42.2,39.7,1.02,High,Poor,Yes,Diabetes,-0.1
+488,252.3,97.3,13.1,7,55.1,female,68.7,161.7,16.9,141.7,77.7,40.4,39.3,0.98,Moderate,Poor,No,No diabetes,-0.2
+489,209.8,200.1,48.2,4.1,47.4,female,68.2,101.4,22.6,160.1,87.6,34.8,35.8,0.81,Moderate,Good,No,No diabetes,0.4
+490,224.8,84.9,56.3,2.4,69.1,male,70.7,207.6,28.1,150.7,82.3,54,42.8,0.85,High,Good,Yes,Diabetes,0
+491,193.5,50,49.2,4.4,50.2,female,65.3,169.4,46.8,87.5,84.4,34,45.3,0.82,Moderate,Poor,No,No diabetes,0.5
+492,216.5,150.6,40.6,5.2,55.8,female,63.8,176.9,38.4,121.7,46.5,35.4,40.8,0.88,High,Average,No,No diabetes,-0.2
+493,267.9,50,35.4,2.4,25.6,male,72.3,245.3,33.5,149.6,81.5,36.7,45.3,0.84,Moderate,Average,No,No diabetes,0.4
+494,234.5,118.6,63.3,7.4,46.1,female,63.5,183.4,33.1,129.4,75.5,33.6,35.5,0.98,High,Poor,Yes,No diabetes,0.2
+495,178.9,93.2,62.3,2.8,66.3,female,60.1,151.5,37,159.4,79.1,39.8,41.9,0.73,Low,Poor,No,No diabetes,0.3
+496,240.2,74.9,66,6.9,65,female,72.3,118.2,30.3,134.1,86.8,39,40.4,0.94,Moderate,Average,Yes,No diabetes,-0.4
+497,187.7,65.4,52.2,3.5,21.6,female,62.1,198.8,22.7,154.3,84.4,32.1,38.6,0.97,High,Average,No,No diabetes,0
+498,202,134.9,15.6,5.4,64.1,male,60.4,140.6,19,179.6,76.5,31.8,43.1,0.87,Low,Poor,Yes,No diabetes,0.3
+499,132,51.8,56.5,3.8,47.5,female,67.9,133,17.5,157.7,88.8,51.1,36.9,0.8,Low,Poor,Yes,No diabetes,-0.3
+500,167.3,181.1,54.2,6,83.4,female,68.3,147.6,31.5,145.7,83.2,36.3,43.9,0.92,Low,Poor,No,No diabetes,0.8
+501,126.6,86.3,49,5.6,31.2,female,57.8,171.2,31.2,149.4,91.9,38.7,51.8,0.88,Low,Poor,No,No diabetes,-0.3
+502,193.2,164.1,41.7,6.1,48.8,female,63.8,243.3,34.4,139.5,89.3,37.2,41.8,0.92,Low,Poor,Yes,No diabetes,0.3
+503,217.9,76,46.6,5,42,male,71.4,157.2,34.9,133.5,44.5,33.5,52.6,0.85,Moderate,Poor,No,No diabetes,0.2
+504,257.9,50,48.9,6.7,21.5,male,60.8,106.9,15.3,133.3,77.8,35.5,36.8,0.88,Low,Average,No,No diabetes,0.4
+505,159.2,102.1,65.4,2.5,52.8,female,66.5,209.5,30.5,174.8,84.3,37.9,38.7,1.03,Moderate,Good,Yes,No diabetes,0.4
+506,158.6,152.6,47.7,4,45.6,female,59.9,137.2,27.7,138.4,90.5,43.3,45.3,1.07,Low,Average,No,No diabetes,0.3
+507,151.1,58.2,41.8,9,33.1,female,68.9,191.3,31.2,107.9,70,31,42.9,0.81,Moderate,Poor,No,No diabetes,0.4
+508,242.2,139.9,52,3,32,male,66.5,180.4,28.5,170.5,109.4,39.1,41.3,0.89,Moderate,Poor,Yes,No diabetes,0.3
+509,268.8,118.5,57.5,4.4,44.1,female,63,215.7,38.8,133.6,77.8,43.3,33.2,1.05,High,Average,Yes,No diabetes,0.4
+510,195,109.8,82.5,5.9,54.8,female,62.4,141,35.4,140.3,91.9,36.8,53.8,0.85,Low,Average,Yes,No diabetes,0
+511,207.3,228.3,50.1,4.6,25.4,female,67.8,169.9,26.6,146.1,91.3,38.6,31.8,0.83,Moderate,Poor,Yes,No diabetes,0.5
+512,249.2,63.7,64.2,4.6,31.8,male,69.1,190.1,31.4,155.8,78.7,32.3,41,0.94,Moderate,Poor,Yes,No diabetes,-0.1
+513,188.1,94,62.3,3,52.5,male,72.5,148.1,30.5,125.3,68.4,36.7,51.2,0.83,Moderate,Average,No,No diabetes,0.3
+514,218,176.4,41.7,4,49.1,female,66.1,204.8,33,134.4,79.8,43.5,31.8,0.93,Moderate,Poor,No,No diabetes,-0.3
+515,237.8,271.3,55.5,2.7,38.5,male,65.9,184.4,30.1,149.3,100.8,36.8,44.4,0.97,Moderate,Poor,No,No diabetes,0.2
+516,183.3,110.3,48.7,4.8,35.3,female,62.5,207.4,27.6,128.7,78.7,26.6,40,0.8,Low,Poor,No,No diabetes,0.7
+517,174.3,52.6,36.5,6.8,71.3,male,68.1,265.5,38.2,148.7,110.2,34.9,60.1,0.93,Low,Poor,Yes,No diabetes,0.2
+518,257.5,67.7,52.4,6.5,58.4,female,65.3,184.2,27.4,144.7,94.4,39.7,52,1.01,Moderate,Poor,Yes,No diabetes,0.4
+519,245.2,153,42.5,4.3,47.2,male,68.6,136.8,29.7,137.4,79.9,27.9,49.3,0.74,High,Poor,No,No diabetes,0.8
+520,230,54.5,69.1,4,49.6,male,65.2,238.6,31.6,168.8,59.9,31,34.3,0.83,Moderate,Poor,No,No diabetes,0.5
+521,283.8,76.8,42.2,4.1,67.9,male,68.9,228.8,28.4,125.4,79.2,44.8,47.3,0.88,Moderate,Average,Yes,Diabetes,0.7
+522,254.3,163.3,29.7,3.4,30.1,male,63,124.9,21.6,135.8,89.1,36.3,43.1,0.8,Moderate,Poor,Yes,No diabetes,0.2
+523,136.3,213.1,48,2.3,54.5,male,65.7,126.8,38.4,168.3,75.5,42.1,45.5,0.99,High,Poor,Yes,No diabetes,0.7
+524,236.6,187.6,49.3,5.5,58,male,66.7,207.3,37.1,100.1,59.5,37.7,49.4,0.74,Moderate,Poor,No,No diabetes,0
+525,184.8,120.3,43.2,0.8,61.9,female,61.3,166,27.4,143.7,82.9,38.5,45.9,0.93,High,Poor,Yes,No diabetes,1.2
+526,190.7,219.5,48,4.7,46.4,male,71.8,272.3,18.8,172.9,87.2,42.3,40,0.85,Low,Poor,Yes,No diabetes,0.5
+527,130.8,83.5,32.8,6.1,54.1,male,67.1,252.7,39.2,158.7,75.1,41.6,39.9,0.97,Moderate,Poor,No,No diabetes,0.4
+528,218.4,50,61,6.2,37.5,male,64.5,254.5,29.4,125.1,87.2,37.2,42.7,0.98,Low,Poor,No,No diabetes,-0.1
+529,304.4,80.2,42,2.8,57.2,female,66,200,30.2,150.7,88.2,36.9,44.6,0.79,Low,Poor,Yes,No diabetes,0.5
+530,230.6,141.1,64.5,4.1,36.1,male,69.5,171.3,25.8,138.9,93.3,32.5,45.1,0.87,Moderate,Poor,Yes,No diabetes,0.3
+531,225,50,26.3,4.6,40.4,male,60.2,236.3,24.1,153.7,69.3,34.6,43.8,0.94,Moderate,Poor,Yes,No diabetes,0.4
+532,155.8,175.7,73.6,5,64.5,male,65.3,230.2,27.1,113.1,88.5,34.9,47.3,0.87,High,Good,Yes,No diabetes,-0.2
+533,214,122.7,66.6,7.4,34.5,male,58.5,161.2,22.2,143.7,92.3,30.9,39.6,0.99,High,Poor,No,No diabetes,0.3
+534,206.4,179.9,41.9,3.4,32.4,male,57.9,208.1,25,142.6,106.6,29.7,50,0.9,High,Average,Yes,Diabetes,0.2
+535,171.5,107,43.8,3.9,15.7,female,70.7,172,32.7,127.8,68.3,33,47.3,0.82,High,Poor,Yes,No diabetes,0.6
+536,178.6,129.8,78,2.7,39.9,female,67.7,209.1,30.7,123.2,87.4,42.9,49.5,0.88,Moderate,Average,Yes,No diabetes,0.1
+537,176.2,182.4,59.8,7.3,49.8,female,67,143.7,27.1,163.5,82.4,33.3,41.2,0.77,Moderate,Poor,Yes,Diabetes,0
+538,270.2,93.4,46,7.2,69.7,male,59.9,197.6,33,158.1,87.9,30.4,42.3,0.86,Moderate,Average,No,No diabetes,-0.5
+539,204.8,83.4,46,4.5,58.2,male,62.3,190,28,148.7,73.6,49.5,46.1,0.93,Moderate,Average,No,No diabetes,0.6
+540,170.2,146.6,51.1,3.9,74.4,male,64.3,142.1,24.8,183.6,80,37,38.1,1.07,Moderate,Good,No,No diabetes,0.3
+541,238.5,50.8,56.4,6.6,35.4,male,59.9,205,31.4,142.4,100.8,32,49,0.96,Low,Average,Yes,Diabetes,-0.2
+542,269.3,56,34,5.1,21.2,female,68.2,109.8,37.2,76.9,71,29.6,42.6,0.83,Low,Poor,No,No diabetes,0.2
+543,229.5,50,54.3,3.5,27.1,female,67,232.2,22.4,128.7,91.7,33.4,34.3,0.77,Low,Good,Yes,Diabetes,0.3
+544,243.7,146,51.1,4.3,32.2,female,70.9,123.4,31.3,140.6,81.2,37.1,38.3,0.87,Low,Average,Yes,Diabetes,0.3
+545,321.8,106.7,29,5.8,32.9,female,68,152.8,31.2,155.5,79.2,32,36.5,0.88,Moderate,Average,No,No diabetes,0.3
+546,197.7,123.3,53.6,5.4,38,female,70.6,197.5,29.3,118.8,73.3,39.3,31.7,0.72,Low,Poor,Yes,No diabetes,0.3
+547,227.7,89.3,52.3,0.9,40.3,female,69,91.6,37.1,176.2,75.6,38,36.5,0.82,Moderate,Poor,No,No diabetes,0.1
+548,217.6,111.9,47,5.3,33.7,male,63.6,240.2,31,137.7,69.4,33.6,42.4,1.01,Low,Poor,No,No diabetes,0.2
+549,176.2,186.4,76.3,5.9,39.4,female,69.7,130.1,21,160.2,106.6,38.3,46.5,0.84,Moderate,Average,No,No diabetes,-0.1
+550,284.4,50.5,57.6,5.5,31.7,male,66.4,111.9,32.5,129.4,81,39.3,46.1,0.93,Moderate,Average,Yes,Diabetes,0.1
+551,227.9,186.8,40.2,4.2,46,male,64.4,218,36,164.6,94.2,37.6,37.9,0.81,Low,Poor,No,No diabetes,-0.1
+552,189.3,129.1,62.6,4.1,67.3,male,65.4,159,25.6,126.9,105.7,39.6,46.7,0.83,Moderate,Poor,Yes,No diabetes,0.3
+553,196.9,144.4,29.6,1.7,58.2,female,67.7,145.6,28.4,116.1,89.7,35.1,48.7,0.86,Moderate,Poor,Yes,Diabetes,0.6
+554,165.7,87.8,36.2,7.3,18.8,male,60.5,164.3,10.4,129.8,92.6,35.1,38.6,1.04,Moderate,Poor,No,No diabetes,-0.1
+555,226.8,95.9,12.1,8.3,11.5,male,67.8,161.6,36.5,96.8,65.7,37.3,33.7,0.84,Low,Average,No,No diabetes,0.2
+556,223,171.6,57.9,4.6,29.4,male,63.2,221.2,30.4,121,91.8,34.9,49.3,0.87,High,Poor,Yes,No diabetes,0
+557,246,50.2,37.1,2.7,29.8,male,62.7,152.5,23.5,164.1,97,45.5,42.6,0.98,Low,Poor,Yes,No diabetes,-0.3
+558,213.3,50,30,5.7,54.2,female,63.7,112.5,28.2,125.5,96.1,32.6,46.1,0.73,Moderate,Poor,No,No diabetes,0.1
+559,252.8,126.4,80.1,1.3,56.8,female,60.5,170.3,27.8,142.5,105,44.7,40.1,0.92,Moderate,Average,No,No diabetes,0.5
+560,200.7,110.7,40.9,3.5,48.5,female,66.4,122.1,20.1,170.9,97.4,33.5,28.4,0.94,Moderate,Poor,No,No diabetes,0.2
+561,297.2,50,32.1,4.7,43.8,female,60.7,238.7,31.3,136,91.9,32.3,47.3,0.89,Moderate,Average,No,No diabetes,0
+562,137.8,134.9,61.1,2.1,63.2,male,67.8,180,31.1,165.8,65.1,36.8,33,0.8,Moderate,Average,Yes,No diabetes,0.6
+563,188.2,122.7,32.8,10.3,53.5,female,63,215.6,36.1,127.7,94.8,53.4,56,0.72,Moderate,Average,No,No diabetes,0.2
+564,331.1,50,50.7,1.2,29.3,female,60.7,151.2,29.9,159.5,62.4,43.4,46.5,0.9,High,Poor,No,No diabetes,0.3
+565,232.1,121,54.2,3.3,40.9,female,68.2,164.7,32.8,141,70.4,32.9,45.1,0.93,Moderate,Poor,Yes,No diabetes,-0.2
+566,187.7,121.1,26.3,4,54.9,female,61.2,130.3,27.7,150.7,53.3,41.3,37.9,0.84,Low,Poor,No,No diabetes,0.3
+567,272.8,50,70,2.4,68,female,66.3,172.3,30.4,179.3,92.1,37.2,44.3,0.93,Moderate,Good,No,No diabetes,0.7
+568,192.9,148.9,65,5.3,43.3,female,61.7,156.7,27.6,109.4,79.8,39.9,46.3,0.98,High,Poor,No,No diabetes,0.3
+569,205.3,113.8,49.5,5.3,19.8,male,68.6,257.4,19.9,110.9,101,39.5,40.8,0.8,Moderate,Average,No,No diabetes,-0.3
+570,237.8,110.5,57.2,5.5,68.1,male,64.6,64,34.3,151.6,91,40.5,38.8,0.9,High,Poor,No,No diabetes,-0.7
+571,236.5,50,53.6,4.3,49.1,female,70.9,197.9,31.8,142.4,81.9,45.2,48.8,0.82,Moderate,Average,No,No diabetes,0.1
+572,172.9,103.6,60.5,5.4,39.7,female,71.6,150.9,25.9,165.7,68.1,36.6,35,0.93,Moderate,Poor,Yes,No diabetes,-0.3
+573,208.9,187.2,32.1,6.4,36.3,male,66.8,203.7,24.5,122.3,63,27,46.8,0.87,Moderate,Average,Yes,No diabetes,0
+574,253.4,123.6,44.1,4.1,56.8,female,71.5,128,25.5,124,62.2,39.1,43.2,0.82,Low,Average,Yes,No diabetes,0.3
+575,155.7,151.1,58.8,4,47.1,female,63.8,204.3,25.7,152.8,94.7,28.7,41.1,0.93,Low,Average,No,No diabetes,0.1
+576,232.6,125.7,32.7,3.4,27.6,female,65.4,189.5,35.9,147.1,69.1,39.9,47.4,0.92,Moderate,Poor,Yes,No diabetes,0.3
+577,188.7,156.4,68.8,4.9,62.9,male,62.2,180.6,25.5,155.6,85.9,44.6,43.8,0.79,Moderate,Poor,Yes,No diabetes,0.3
+578,249.3,173.6,14.6,4.8,49.1,female,63.2,124.7,27,172,75.3,35.8,44.1,0.99,Low,Average,No,No diabetes,-0.2
+579,267.3,108.3,26.1,5.5,56.3,female,69.4,168.6,21.7,209,89.1,36,43.9,0.99,Moderate,Good,Yes,No diabetes,-0.2
+580,234,139.8,56.5,3.5,57.3,male,71.9,196.7,17.2,168.3,83.5,43.2,36.7,1.05,Moderate,Average,No,No diabetes,-0.3
+581,120,75.8,67.3,8.1,17.6,female,65.7,129.5,26.9,143.6,102.4,30.1,34,0.92,Low,Average,Yes,Diabetes,-0.1
+582,173.4,160.1,43.5,3.3,43,female,71.4,151,28.5,184.3,86.2,38.9,27.3,0.78,Moderate,Poor,No,No diabetes,-0.4
+583,209.3,50,32.5,4.6,61.1,female,68.3,130.4,31.2,141.2,76.9,33.9,39.6,0.86,Moderate,Poor,No,No diabetes,0.7
+584,172.6,120.9,45.8,4.8,64.5,female,62.2,198.4,35.5,88.4,87.3,25.6,40.2,0.87,High,Good,Yes,No diabetes,0.9
+585,263.5,127.7,45.6,5.1,38.6,female,67.8,141.4,23,98.4,84.4,39,43.5,0.87,Low,Average,No,No diabetes,0.4
+586,219.8,87.9,14.5,5.3,76.8,female,70.9,213.3,41.2,108,79.9,41.9,47.6,0.96,Moderate,Poor,Yes,No diabetes,0.5
+587,151.6,50,36.9,4.7,47.3,male,66.8,161.9,37.6,167.9,74.1,41.9,37.7,0.89,Moderate,Poor,Yes,Diabetes,-0.4
+588,196.8,190.4,68.4,1.4,51.5,female,72.2,173.1,20.5,114.1,61.6,40.6,46.7,0.75,Moderate,Poor,Yes,No diabetes,0.8
+589,182.7,110.6,40,6.9,44.7,male,67.9,100,38.8,169.5,89.1,43.6,50,0.89,Low,Poor,Yes,No diabetes,0.4
+590,178,139.6,50,5.4,38.8,female,63.5,187.5,32.1,123,96.8,37.7,35.2,0.86,Moderate,Average,No,No diabetes,0.5
+591,185.9,73,77.2,6.5,43.8,male,62.6,183.4,16.6,143,76.1,38,43.4,0.96,Low,Poor,No,No diabetes,-0.2
+592,269.9,50,32.7,5.1,38.3,female,62.6,173.4,36.1,133.4,88.9,39.7,46,0.84,Moderate,Poor,No,No diabetes,-0.3
+593,221.6,160.1,28.5,4.9,45.2,male,66.2,180.3,27.3,118.4,82.2,27.6,37.3,0.95,Moderate,Average,No,No diabetes,0.5
+594,177.4,101.4,49.9,1.9,78.6,female,65.8,119.2,23.8,107.9,84.3,31.9,36.2,0.83,Low,Good,No,No diabetes,0.2
+595,271.6,127.4,41.3,2.7,12.9,female,75.1,192.7,32.9,123.6,73.6,49.8,34.8,0.87,Moderate,Poor,Yes,No diabetes,0.1
+596,174.7,144.7,40.3,3.3,58.3,female,60.8,140.5,27.3,183.7,54.2,35.4,53.7,0.92,Moderate,Good,No,No diabetes,0.4
+597,181,84.7,73.4,5.2,27.7,female,56.5,132.9,30.8,108.5,102,38.8,49,0.85,Moderate,Average,No,No diabetes,0.2
+598,172.1,113.5,47.5,5.8,39.9,male,71.5,238.6,33.3,117,66.9,36.8,46.2,0.86,Moderate,Average,Yes,Diabetes,0
+599,184,69.6,87.2,5.2,61.6,female,64.5,177.6,20.7,159.1,93.2,41.3,50.9,0.94,Moderate,Poor,No,No diabetes,0.4
+600,256.3,57.5,83.1,6.3,36.3,male,64.7,209.6,17,147.5,110.3,43.1,39,0.9,Moderate,Average,No,No diabetes,0.7
+601,194.7,99.1,93.9,5.6,30.1,male,66.6,150.7,32.1,181.8,85.9,35.1,37.6,0.93,Moderate,Poor,Yes,No diabetes,0.7
+602,209.2,163.1,74.4,4.2,45.3,female,66.1,169.1,31,151.8,88.5,35.7,46.9,0.97,Low,Poor,Yes,No diabetes,0.6
+603,280.6,50,56.5,3.7,70.8,male,63.4,166.2,34.3,182,92.9,44.9,44.5,0.84,Low,Good,Yes,Diabetes,0.3
+604,184.1,145.1,53.9,7.3,34,male,70.4,202.6,13.1,127,90.3,46.3,41.3,0.8,Moderate,Poor,Yes,No diabetes,0.1
+605,166.2,158.6,68.4,5.3,33.2,female,65.3,206.7,37,144.3,96.2,36.3,37.9,1.08,Moderate,Poor,No,No diabetes,0.8
+606,217.3,120.6,48.1,6.2,35.5,male,67,195.9,29,138.2,90,31.7,44.9,0.85,High,Good,Yes,No diabetes,0.3
+607,254.8,94.5,48.5,7.9,49.4,female,53.3,197.3,26.9,130.7,84.1,46.2,44.1,0.91,Low,Good,Yes,Diabetes,0.1
+608,132.5,123.1,60.6,3.3,59.3,male,68.1,168.9,16.5,114.3,77.3,40.4,49.2,0.8,Moderate,Average,Yes,No diabetes,-0.1
+609,248,215.9,59.6,5.6,58.4,male,62.5,156.8,29.7,145,76.6,49.2,51.3,0.87,Moderate,Poor,Yes,No diabetes,0.3
+610,214.2,184.8,19.1,3.4,28.3,female,69.9,158.4,35.5,112.1,115.1,31.8,41.7,0.91,Low,Poor,Yes,No diabetes,0.5
+611,176.3,162.7,59.8,4.2,58.5,female,64,201.5,25.3,148.2,64.5,27.8,44.4,0.8,Low,Average,No,No diabetes,0.5
+612,137.3,91.6,48.1,4.9,41.5,female,65.8,158.4,35.7,165.2,79.5,35.1,52.9,0.88,High,Good,No,No diabetes,0
+613,177.5,203,54.4,3.5,57.8,female,62.8,174.2,30.5,160,94.5,28.7,38.6,0.95,Low,Poor,No,Diabetes,0.1
+614,229,183.4,55.7,2.7,43.3,female,65.2,186.6,38.1,137.9,94.3,33.9,49.6,0.81,Moderate,Average,Yes,No diabetes,-0.5
+615,225.9,50,66.2,4.4,53,male,59.1,206,26.7,155,67.8,41.1,37.7,0.86,Moderate,Poor,Yes,No diabetes,0.1
+616,215.3,159,55.4,4,29,male,71.3,129.9,34.7,94.3,99.1,39.4,53.7,0.96,Moderate,Average,Yes,No diabetes,0.5
+617,204.3,92.1,30,0.7,61.8,female,55.7,206.1,33.8,194.9,74.3,38.1,42.1,0.93,Moderate,Average,No,No diabetes,0.1
+618,187.5,118.7,40.7,6.4,13.2,female,72.9,147.6,29.1,137.7,85.4,43.5,44.9,0.85,Low,Average,No,No diabetes,-0.2
+619,257.2,140.7,43.3,0.2,47.4,male,65.5,200.8,19.3,167.5,106.8,33.5,40.6,0.76,Low,Poor,Yes,No diabetes,0
+620,182.6,105.7,41.3,2.3,53.1,female,70.8,200.7,25.2,117.5,83.3,30.6,38.3,0.92,Moderate,Good,No,Diabetes,-0.2
+621,126.6,50,62.5,3.3,11.2,male,62.1,113.8,34,150.3,57,41.3,47.9,0.86,Moderate,Poor,No,No diabetes,-0.4
+622,226.6,188.7,34.9,3.7,32.7,female,65.2,160.5,11.9,115.3,88.7,37.7,46.7,0.94,Low,Poor,Yes,Diabetes,0.3
+623,189.2,50,58.4,7,56.5,male,64.3,201.1,33.6,92.9,81.6,30.3,47.7,0.99,Low,Poor,No,No diabetes,0.5
+624,158.5,100.6,69.2,6.7,51.4,female,64.7,184.2,22.6,122.2,57.8,44.1,46.6,0.92,Moderate,Poor,No,No diabetes,-0.3
+625,196.9,155.5,53.1,3,32.8,female,64.1,128.3,32.4,123.7,83.4,37.2,39.7,1.02,Low,Poor,No,No diabetes,-0.5
+626,269.8,106.6,24.5,3.9,54.7,female,71.3,176.4,30.4,150.4,63.8,41.8,35.5,0.8,High,Good,No,No diabetes,1
+627,230.5,112.3,58.3,0.5,35.1,female,72.4,245.7,21.6,155.2,58.4,52.2,38.8,0.77,Moderate,Poor,No,No diabetes,0.1
+628,182.8,123.7,55.2,5.2,54.2,female,69.3,249.9,25.7,146.7,84.3,32.1,35.7,0.94,Moderate,Average,No,No diabetes,0.2
+629,86.5,108.3,44.2,5.7,28,male,67.9,197.9,23.6,162.6,94.9,38.6,50,0.9,Moderate,Poor,Yes,Diabetes,0.8
+630,173.6,228.9,46,1.5,71.2,male,64,162.1,27.1,186.4,73,32.3,33.1,0.88,Low,Average,Yes,No diabetes,0.6
+631,192.9,210.5,68.5,5.9,54.5,male,70.7,192.9,24.8,130.6,87.9,43.2,54.3,0.88,Moderate,Average,Yes,No diabetes,-0.1
+632,131.3,89,39.6,6.1,53.5,female,66.5,200.8,32.9,90.8,78.2,40.7,44.1,0.94,Moderate,Average,Yes,Diabetes,0.4
+633,234.3,89.4,54.7,5.1,50,male,70.5,182.8,39,131.6,81.8,42.7,43.5,0.81,Moderate,Average,No,No diabetes,-0.6
+634,201.6,94.8,57.1,4.9,56.1,male,59.6,195.5,32.2,162,109.2,30.4,23.8,0.9,Low,Average,No,No diabetes,0.3
+635,221.3,50,21.8,1.5,46,male,65.5,84.6,19.9,165.8,101,33.3,40.9,1,Moderate,Poor,No,No diabetes,0.3
+636,283.5,65.7,70.7,5.4,59.2,male,56.3,158.6,30.7,128.1,71.2,43.6,44.5,0.83,Moderate,Average,No,Diabetes,0.8
+637,136,75.4,39.1,3.5,62.2,male,60.9,150.4,36.9,161,72.6,25.8,36.6,0.86,Moderate,Good,Yes,No diabetes,-0.2
+638,187.9,129.8,65.2,6.8,54.4,female,66.4,157.2,15.4,161.3,89.2,37.9,46.3,0.82,Moderate,Average,Yes,No diabetes,0.2
+639,185.6,179.3,89.3,6.1,46,female,69.3,154.8,25.2,134.2,77.1,30.3,45.2,0.8,Low,Average,No,No diabetes,1.5
+640,250.8,100.6,65.6,3,34.2,male,64.4,159.7,39.3,150.1,84,29.7,37.9,0.86,Moderate,Average,No,No diabetes,0.3
+641,187.7,186.7,54,5,49.3,female,69.4,235.3,24,115.9,85.7,36,45.7,0.86,High,Good,No,No diabetes,0.2
+642,123.5,108.6,74.1,3.9,25.8,female,62,255.1,32.5,143,82.4,36.2,41.3,0.98,High,Poor,No,No diabetes,-0.2
+643,230.7,158.6,70.5,4,65.5,female,65.3,166.6,29.8,129.4,80.8,35.4,42.6,0.91,High,Poor,No,No diabetes,0.2
+644,150.3,166.8,31.8,2,71,male,62.3,183.4,25.4,85.5,88.7,31.9,38.4,0.82,Moderate,Poor,Yes,No diabetes,0.3
+645,204.7,132.3,52.6,6.5,48.3,female,68.1,175.8,32.5,130.5,89.6,44.4,43.5,1.01,High,Poor,Yes,No diabetes,-0.2
+646,211.5,106.3,50.9,5.1,32.8,male,63.1,187,25.4,117.9,79.2,32.3,46.3,0.86,Moderate,Average,Yes,Diabetes,0.5
+647,248.1,100.4,19.3,7.2,46.4,female,70.8,71.8,29.3,135.6,75.2,38.5,39.7,0.92,Moderate,Average,No,No diabetes,0.2
+648,241.2,70.5,45,5.7,45.1,female,65.7,189.7,31.6,131.1,71.5,43.1,36.8,0.9,Low,Poor,No,No diabetes,0.2
+649,230.8,159.5,52.1,2.5,58.1,male,70.2,115.9,26.2,153.1,86.1,41.5,36.3,0.83,Moderate,Poor,No,No diabetes,0
+650,155.9,139,9.8,6.5,47.4,female,64.9,191.9,30.9,181.2,70.6,40,51.6,0.86,High,Average,Yes,No diabetes,0.3
+651,193.1,55.9,48.2,5.7,65.8,female,65.3,136.2,30.8,143.9,79.5,38.4,35.4,0.95,Moderate,Average,Yes,Diabetes,-0.3
+652,156.2,60.5,36.8,5,28.2,male,74.3,191.6,30.2,161.1,79.7,34.9,42.4,0.86,Moderate,Good,Yes,Diabetes,0.4
+653,196.9,189.6,35.3,5.7,37.3,female,65.8,119.2,19.9,131.5,75.9,24.2,48.9,0.87,High,Poor,Yes,Diabetes,0.5
+654,235.3,173.7,32.2,1.6,72.1,female,58.4,139.8,26.5,128.3,58.7,34,45.6,0.82,Low,Poor,Yes,No diabetes,-0.2
+655,207.6,141.6,52.5,5.5,48.6,female,67.4,182,39.6,129.3,59.3,42.6,46.3,0.91,Moderate,Average,No,No diabetes,-0.4
+656,160.4,168.3,64.8,2.8,24.1,female,73.6,196,33.1,153.1,65.1,37.6,35,0.97,Low,Average,Yes,Diabetes,0.2
+657,195.7,50,64.3,1.9,27,female,61.9,176.2,42.5,165.5,66.1,35.7,40.8,0.92,Moderate,Poor,No,No diabetes,0.4
+658,184.1,135.1,28.6,4.3,58.8,male,68.9,265.8,23,122.3,77.5,39.1,43.1,1.02,Low,Poor,Yes,No diabetes,0.3
+659,176.8,75.3,45.4,4,27.7,male,62.9,195.4,28.6,154.4,85.1,38.9,42.4,0.85,Moderate,Poor,No,No diabetes,-0.2
+660,273.8,110.9,23.8,7.1,60.7,male,63.4,230,26.1,104.7,72.7,43.8,44,0.89,Moderate,Good,No,No diabetes,0.4
+661,205,136.1,34.3,0.3,44.7,female,70.2,257.3,19.6,149.5,85.6,36.4,44.8,0.9,Moderate,Good,Yes,No diabetes,0.2
+662,207.2,71.5,41.7,4.5,24.8,male,67.5,175.4,23.7,148.1,91.9,35.3,45.1,0.89,Moderate,Poor,No,No diabetes,0.4
+663,175.6,92.3,48.5,2.6,57.8,male,65.2,98.6,26.4,130.9,75.4,31.9,32.3,0.96,Moderate,Poor,Yes,No diabetes,0.4
+664,173.2,50,40.2,5.2,48.7,female,61.7,136.7,42.4,133.1,77.4,45.9,43.2,0.78,Moderate,Poor,No,No diabetes,-0.4
+665,170.8,107,68.2,5.5,72.8,male,76.1,202.8,23.8,125.8,69.3,32.1,42.3,0.9,Moderate,Poor,No,No diabetes,0.3
+666,184.6,73.9,68.8,4.3,60.7,female,61.5,191.8,36.5,134.4,99.4,34.8,51.3,0.77,Moderate,Good,No,No diabetes,0.3
+667,165,163.8,38.6,5.1,40.4,male,68.5,239.7,30.4,154.9,73.2,42.6,36.7,0.88,Moderate,Poor,No,No diabetes,-0.7
+668,225,252.3,82.2,4,36.2,female,61.8,236.8,29.6,161.6,96.4,41.6,38.4,0.97,Moderate,Poor,Yes,No diabetes,-0.3
+669,192.3,143.6,46.3,4.2,55.9,male,69.1,147.6,35.6,134.3,99.9,36.1,49.2,0.77,High,Poor,No,No diabetes,-0.2
+670,209.9,50,51.6,5.3,37.3,male,64.7,188.7,30.3,144.4,67.6,41.1,38.4,0.93,Moderate,Poor,No,No diabetes,0
+671,251.8,59.6,73.5,1.6,54.3,male,64.8,198.6,14,147.7,96.6,36.1,46,0.89,Low,Average,Yes,No diabetes,0.2
+672,150.9,67.9,10.6,4.9,53.1,female,71.1,239.1,31.3,175.8,81.7,24.7,44.7,0.92,High,Good,No,No diabetes,0.9
+673,195.1,138.9,27.6,4,40.9,female,61.1,154.6,50.7,131.1,101.3,48.2,44.9,0.79,Moderate,Average,No,No diabetes,0.3
+674,267.3,50,43.2,2,64.1,male,63.8,238.1,30.2,105.5,83.4,42.8,49.3,0.94,Low,Poor,Yes,No diabetes,0.1
+675,166,157.2,56.9,5,40.5,male,70.2,156.7,29.8,157.6,84.9,45,40.8,0.72,Low,Average,No,No diabetes,0.2
+676,172.7,84.3,-13.7,5.1,33.5,male,71.1,156.5,35.5,119.7,89.4,37.5,38,0.98,Moderate,Average,No,No diabetes,-0.2
+677,256,138.1,57.7,4.9,38.1,male,64.3,211.2,29.3,164.2,112,35.5,42.2,0.75,Moderate,Average,No,No diabetes,0.3
+678,142.5,105.1,65.2,5.3,76.2,male,61.3,217.7,28.2,97.4,85.3,42.7,41.5,0.9,Moderate,Poor,No,No diabetes,0.5
+679,185,87.8,66.4,0,35.9,female,65.6,181.7,21.8,174.4,103,34.5,36.1,0.88,Moderate,Poor,Yes,Diabetes,0.2
+680,270.5,110.6,38,4.6,59.6,male,59.4,184,28.2,103.5,83.6,47.6,42.6,0.82,Moderate,Poor,Yes,No diabetes,0.6
+681,155.5,154.8,45.5,7.3,52.6,female,63.2,250,28.3,104.8,85.6,37.4,50.9,0.91,Low,Average,Yes,Diabetes,0.9
