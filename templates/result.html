@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #f7f7f7;
+            padding-top: 40px;
+        }
+        .result-card {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #dedede;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .result-text {
+            font-size: 24px;
+            color: #333333;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .diabetes {
+            color: #d9534f; /* Bootstrap 'danger' color */
+        }
+        .no-diabetes {
+            color: #5cb85c; /* Bootstrap 'success' color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="result-card">
+            <div class="result-text">
+                <!-- The prediction result will be displayed here -->
+                {% if prediction == 1 %}
+                    <p class="diabetes">The result indicates Diabetes.</p>
+                {% else %}
+                    <p class="no-diabetes">The result indicates No Diabetes.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js (Optional, for Bootstrap components that require JavaScript like modals, dropdowns, etc.) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
