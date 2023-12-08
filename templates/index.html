@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,12 +17,28 @@
             margin-top: 50px;
         }
 
+        .carousel-banner .carousel-item img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .predict-btn {
+            width: 100%; /* Wider predict button */
+            font-size: 20px; /* Increased font size */
+            padding: 10px 0; /* Larger padding for better visual */
+        }
+
+        .form-col {
+            padding: 0 5px;
+        }
+
         .card {
             border-radius: 15px;
         }
 
         .card-header {
-            background-color: #00796b;
+            background-color: #7cbab3;
             color: white;
         }
 
@@ -40,144 +55,151 @@
             font-weight: bold;
         }
 
-        input {
+        input, select {
             border-radius: 10px;
         }
     </style>
 </head>
-
 <body>
 
     <div class="container">
         <h1>Diabetes Prediction WebApp</h1>
-                <!-- Adding images -->
-                <div class="row my-4">
-                    <div class="col-md-4">
-                        <img src="../static/images/clock2.webp" alt="Diabetes Awareness Image 1" class="img-fluid rounded">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="../static/images/watch.webp" alt="Diabetes Awareness Image 2" class="img-fluid rounded">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="../static/images/doc.webp" alt="Diabetes Awareness Image 3" class="img-fluid rounded">
-                    </div>
+
+        <!-- Bootstrap Carousel -->
+        <div id="imageCarousel" class="carousel slide carousel-banner" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../static/images/clock2.webp" alt="Diabetes Awareness Image 1">
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <div class="card">
-                            <div class="card-header text-center">
-                                <h2>Diabetes Prediction</h2>
-                            </div>
-                            <div class="card-body">
-                                <form action="/predict" method="post">
-                                    <!-- Basic Information -->
-                                    <div class="row mb-3">
-                                        <div class="col">
-                                            <label for="cholesterol" class="form-label">Cholesterol (mg/dL)</label>
-                                            <input type="number" class="form-control" id="cholesterol" name="cholesterol" required>
-                                        </div>
-                                        <div class="col">
-                                            <label for="glucose" class="form-label">Glucose (mg/dL)</label>
-                                            <input type="number" class="form-control" id="glucose" name="glucose" required>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <div class="col">
-                                            <label for="hdlChol" class="form-label">HDL Cholesterol (mg/dL)</label>
-                                            <input type="number" class="form-control" id="hdlChol" name="hdlChol" required>
-                                        </div>
-                                        <div class="col">
-                                            <label for="age" class="form-label">Age (years)</label>
-                                            <input type="number" class="form-control" id="age" name="age" required>
-                                        </div>
-                                    </div>
-                                
-                                    <!-- Physical Measurements -->
-                                    <div class="row mb-3">
-                                        <div class="col">
-                                            <label for="height" class="form-label">Height (inches)</label>
-                                            <input type="number" class="form-control" id="height" name="height" required>
-                                        </div>
-                                        <div class="col">
-                                            <label for="weight" class="form-label">Weight (pounds)</label>
-                                            <input type="number" class="form-control" id="weight" name="weight" required>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <div class="col">
-                                            <label for="systolicBP" class="form-label">Systolic BP (mmHg)</label>
-                                            <input type="number" class="form-control" id="systolicBP" name="systolicBP" required>
-                                        </div>
-                                        <div class="col">
-                                            <label for="diastolicBP" class="form-label">Diastolic BP (mmHg)</label>
-                                            <input type="number" class="form-control" id="diastolicBP" name="diastolicBP" required>
-                                        </div>
-                                    </div>
-                                
-                                    <!-- Additional Measurements -->
-                                    <div class="row mb-3">
-                                        <div class="col">
-                                            <label for="waist" class="form-label">Waist Measurement (inches)</label>
-                                            <input type="number" class="form-control" id="waist" name="waist" required>
-                                        </div>
-                                        <div class="col">
-                                            <label for="hip" class="form-label">Hip Measurement (inches)</label>
-                                            <input type="number" class="form-control" id="hip" name="hip" required>
-                                        </div>
-                                    </div>
-                                
-                                    <!-- Categorical Features -->
-                                    <div class="row mb-3">
-                                        <!-- Gender -->
-                                        <div class="col">
-                                            <label for="gender" class="form-label">Gender</label>
-                                            <select class="form-select" id="gender" name="gender">
-                                                <option value="female">Female</option>
-                                                <option value="male">Male</option>
-                                            </select>
-                                        </div>
-                                        <!-- Physical Activity -->
-                                        <div class="col">
-                                            <label for="physicalActivity" class="form-label">Physical Activity</label>
-                                            <select class="form-select" id="physicalActivity" name="physicalActivity">
-                                                <option value="high">High</option>
-                                                <option value="moderate">Moderate</option>
-                                                <option value="low">Low</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <!-- Food Quality -->
-                                        <div class="col">
-                                            <label for="foodQuality" class="form-label">Food Quality</label>
-                                            <select class="form-select" id="foodQuality" name="foodQuality">
-                                                <option value="good">Good</option>
-                                                <option value="average">Average</option>
-                                                <option value="poor">Poor</option>
-                                            </select>
-                                        </div>
-                                        <!-- Family History -->
-                                        <div class="col">
-                                            <label for="familyHistory" class="form-label">Family History</label>
-                                            <select class="form-select" id="familyHistory" name="familyHistory">
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                
-                                    <button type="submit" class="btn btn-primary btn-block">Predict</button>
-                                </form>
-                                
-                    </div>
+                <div class="carousel-item">
+                    <img src="../static/images/watch.webp" alt="Diabetes Awareness Image 2">
                 </div>
+                <div class="carousel-item">
+                    <img src="../static/images/doc.webp" alt="Diabetes Awareness Image 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Prediction Form -->
+        <div class="card mt-4">
+            <div class="card-header text-center">
+                <h3>Diabetes Prediction</h3>
+            </div>
+            <div class="card-body">
+                <form action="/predict" method="post">
+                    <!-- Row 1 -->
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="cholesterol" class="form-label">Cholesterol (mg/dL)</label>
+                            <input type="number" class="form-control" id="cholesterol" name="cholesterol" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="glucose" class="form-label">Glucose (mg/dL)</label>
+                            <input type="number" class="form-control" id="glucose" name="glucose" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="hdlChol" class="form-label">HDL Cholesterol (mg/dL)</label>
+                            <input type="number" class="form-control" id="hdlChol" name="hdlChol" required>
+                        </div>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="age" class="form-label">Age (years)</label>
+                            <input type="number" class="form-control" id="age" name="age" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="height" class="form-label">Height (inches)</label>
+                            <input type="number" class="form-control" id="height" name="height" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="weight" class="form-label">Weight (pounds)</label>
+                            <input type="number" class="form-control" id="weight" name="weight" required>
+                        </div>
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="systolicBP" class="form-label">Systolic BP (mmHg)</label>
+                            <input type="number" class="form-control" id="systolicBP" name="systolicBP" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="diastolicBP" class="form-label">Diastolic BP (mmHg)</label>
+                            <input type="number" class="form-control" id="diastolicBP" name="diastolicBP" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="waist" class="form-label">Waist Measurement (inches)</label>
+                            <input type="number" class="form-control" id="waist" name="waist" required>
+                        </div>
+                    </div>
+
+                    <!-- Row 4 -->
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="hip" class="form-label">Hip Measurement (inches)</label>
+                            <input type="number" class="form-control" id="hip" name="hip" required>
+                        </div>
+                        <!-- Additional inputs can be added here in the same pattern -->
+                                             <!-- Gender -->
+                        <div class="col-md-4">
+                            <label for="gender" class="form-label">Gender</label>
+                            <select class="form-select" id="gender" name="gender">
+                                <option value="female">Female</option>
+                                <option value="male">Male</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="familyHistory" class="form-label">Family History</label>
+                            <select class="form-select" id="familyHistory" name="familyHistory">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <!-- Physical Activity -->
+                        <div class="col-md-4">
+                            <label for="physicalActivity" class="form-label">Physical Activity</label>
+                            <select class="form-select" id="physicalActivity" name="physicalActivity">
+                                <option value="high">High</option>
+                                <option value="moderate">Moderate</option>
+                                <option value="low">Low</option>
+                            </select>
+                        </div>
+                        <!-- Food Quality -->
+                        <div class="col-md-4">
+                            <label for="foodQuality" class="form-label">Food Quality</label>
+                            <select class="form-select" id="foodQuality" name="foodQuality">
+                                <option value="good">Good</option>
+                                <option value="average">Average</option>
+                                <option value="poor">Poor</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+
+                    
+
+
+
+                    <button type="submit" class="btn btn-primary btn-block predict-btn">Predict</button>
+                </form>
             </div>
         </div>
     </div>
 
-    <!-- Optional JavaScript -->
     <!-- Bootstrap JS, Popper.js, and jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
