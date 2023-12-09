@@ -33,6 +33,20 @@
         .no-diabetes {
             color: #5cb85c; /* Bootstrap 'success' color */
         }
+        .check-again-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 30px;
+            font-size: 18px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff; /* Bootstrap primary color */
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -41,10 +55,13 @@
             <div class="result-text">
                 <!-- The prediction result will be displayed here -->
                 {% if prediction == 1 %}
-                    <p class="diabetes">The result indicates Diabetes.</p>
+                    <p class="diabetes">OOps! The result indicates you have Diabetes.</p>
                 {% else %}
                     <p class="no-diabetes">The result indicates No Diabetes.</p>
                 {% endif %}
+                <!-- Button to check another prediction -->
+                <h3>Want to check again?</h3>
+                <a href="{{ url_for('home') }}" class="check-again-btn">Check Another Prediction</a>
             </div>
         </div>
     </div>
